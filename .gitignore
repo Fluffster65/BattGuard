@@ -1,0 +1,29 @@
+# KiCad backups and autosave files
+*.bak
+*-bak
+*-backups/
+_autosave-*
+#auto_saved_files#
+
+# KiCad local machine/user settings
+*.kicad_prl
+
+# Fabrication/plot outputs and caches
+gerber/
+gerb/
+plot/
+plots/
+fabrication/
+production/
+cam/
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+
+# Keep core KiCad project files tracked
+!*.kicad_pro
+!*.kicad_sch
+!*.kicad_pcb
+!sym-lib-table
+!fp-lib-table
