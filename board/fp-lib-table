@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "TeamLib")(type "KiCad")(uri "${KIPRJMOD}/libs/footprints/TeamLib.pretty")(options "")(descr "Team shared footprints"))
+)
