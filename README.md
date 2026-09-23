@@ -5,8 +5,9 @@ This repository keeps the KiCad PCB project and the shared component library tog
 ## Team setup
 
 1. Clone this repository.
-2. Open `board/board.kicad_pro` in KiCad from your clone root.
-3. In KiCad, check **Preferences > Manage Symbol Libraries** and **Preferences > Manage Footprint Libraries** and confirm `TeamLib` appears with `${KIPRJMOD}`-based paths.
+2. In KiCad, create a new project at `board/` named `board` (this generates `board/board.kicad_pro`, `board/board.kicad_sch`, and `board/board.kicad_pcb`).
+3. Re-open `board/board.kicad_pro` from your clone root.
+4. In KiCad, check **Preferences > Manage Symbol Libraries** and **Preferences > Manage Footprint Libraries** and confirm `TeamLib` appears with `${KIPRJMOD}`-based paths.
 
 No manual path entry is needed because `sym-lib-table` and `fp-lib-table` are committed in `board/`.
 
