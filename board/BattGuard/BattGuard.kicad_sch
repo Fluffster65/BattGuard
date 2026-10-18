@@ -7355,16 +7355,6 @@
 		)
 		(uuid "5753dce4-2d1d-434f-ae9b-7354abe61dc4")
 	)
-	(text "i2c"
-		(exclude_from_sim no)
-		(at 193.04 227.584 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "60061b98-822d-45de-b920-9795026769d3")
-	)
 	(text "GND\n"
 		(exclude_from_sim no)
 		(at 69.85 47.752 0)
@@ -7405,15 +7395,15 @@
 		)
 		(uuid "a82f6cc1-16fe-4c7f-93e4-9ea8b4d6f4c4")
 	)
-	(text "i2c"
+	(text "will be boost output\n"
 		(exclude_from_sim no)
-		(at 193.04 224.79 0)
+		(at 51.562 202.438 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "ad7eca33-9821-4361-87b5-4f7f7cecefd6")
+		(uuid "cfcb6b52-e9b0-4a5b-943a-730a91c9fcc4")
 	)
 	(text "VIN"
 		(exclude_from_sim no)
@@ -7882,6 +7872,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ef76ccc-2db6-4d0e-9ef2-5fa09bfe17bc")
+	)
+	(junction
+		(at 381 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2260a74-8afc-4e26-a514-4b42c451f26b")
 	)
 	(junction
 		(at 201.93 50.8)
@@ -9017,16 +9013,6 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 179.07) (xy 350.52 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ec06cfb-80fa-4001-a004-5e6eda27b10e")
-	)
-	(wire
-		(pts
 			(xy 212.09 43.18) (xy 222.25 43.18)
 		)
 		(stroke
@@ -9184,6 +9170,16 @@
 			(type default)
 		)
 		(uuid "4af8d28c-a4ad-4b8e-b621-b3a98f7865a6")
+	)
+	(wire
+		(pts
+			(xy 331.47 179.07) (xy 350.52 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b723c68-c0bb-4f82-b25d-c0c6a91be309")
 	)
 	(wire
 		(pts
@@ -9584,6 +9580,16 @@
 			(type default)
 		)
 		(uuid "68441b5f-8169-495a-ba6d-137fb8657f88")
+	)
+	(wire
+		(pts
+			(xy 196.85 227.33) (xy 190.5 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68a95dad-e6d3-49ec-9290-9bb6aefb78af")
 	)
 	(wire
 		(pts
@@ -10514,6 +10520,16 @@
 			(type default)
 		)
 		(uuid "aef77878-c83c-4393-927d-9fce9e98d30f")
+	)
+	(wire
+		(pts
+			(xy 196.85 224.79) (xy 190.5 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af38d609-813a-463f-a6d7-c134de59839f")
 	)
 	(wire
 		(pts
@@ -11615,16 +11631,6 @@
 		)
 		(uuid "1f180c9a-12f5-465c-859e-0791b0aa3777")
 	)
-	(label "Vsystem"
-		(at 45.72 204.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2804579c-ab59-4723-b5f2-ba1170995385")
-	)
 	(label "GPIO13"
 		(at 337.82 171.45 0)
 		(effects
@@ -11704,6 +11710,16 @@
 			(justify left bottom)
 		)
 		(uuid "491fd0fb-7025-49d3-886e-b2eecec1a6eb")
+	)
+	(label "GPIO8"
+		(at 196.85 224.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4a0034b3-a0bc-413c-9c9d-bd5fdeaaf129")
 	)
 	(label "GPIO14"
 		(at 193.04 232.41 0)
@@ -12114,6 +12130,16 @@
 			(justify left bottom)
 		)
 		(uuid "bc3bb9fd-e895-4828-90c1-4500a978263c")
+	)
+	(label "GPIO9"
+		(at 196.85 227.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cdfe22b7-8b2d-4e0a-b1d2-da099189e2e0")
 	)
 	(label "TS"
 		(at 21.59 180.34 0)
@@ -14164,6 +14190,84 @@
 			(project "BattGuard"
 				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 381 179.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "303d9720-2302-4e82-884a-98957303bc8d")
+		(property "Reference" "#PWR025"
+			(at 381 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 381 184.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 381 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 381 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 381 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "470b8c74-2199-4c03-9db8-656de1e1e70b")
+		)
+		(instances
+			(project "BattGuard"
+				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -17475,6 +17579,84 @@
 			(project "BattGuard"
 				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 331.47 179.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6aabde07-f3bb-4e10-b682-4502ecb1d603")
+		(property "Reference" "#PWR023"
+			(at 331.47 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 331.47 184.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 331.47 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 331.47 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 331.47 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "04aab790-64fb-47cd-adef-03e364a5dee9")
+		)
+		(instances
+			(project "BattGuard"
+				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
