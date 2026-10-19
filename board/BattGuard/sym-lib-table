@@ -1,4 +1,4 @@
 (sym_lib_table
 	(version 7)
-	(lib (name "TeamLib") (type "KiCad") (uri "${BATTGUARD_SYMBOL}/TeamLib.kicad_sym") (options "") (descr ""))
+	(lib (name "TeamLib") (type "KiCad") (uri "${BATTGAURD_SYMBOL}/TeamLib.kicad_sym") (options "") (descr ""))
 )
