@@ -305,24 +305,6 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 0 0)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 2.54 0 180)
 					(length 0)
 					(name ""
@@ -332,7 +314,25 @@
 							)
 						)
 					)
-					(number "C"
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -4041,6 +4041,340 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Battguard:S5B-XH-A"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "S5B-XH-A"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "TeamLib:JST_S5B-XH-A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PARTREV" "27-1-20"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "6.1mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "JST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "S5B-XH-A_0_0"
+				(polyline
+					(pts
+						(xy -1.27 6.35) (xy -1.27 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 6.35) (xy 0 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -6.35) (xy 0 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.635 4.7625)
+					(end 0.9525 5.3975)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.635 2.2225)
+					(end 0.9525 2.8575)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.635 -0.3175)
+					(end 0.9525 0.3175)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.635 -2.8575)
+					(end 0.9525 -2.2225)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.635 -5.3975)
+					(end 0.9525 -4.7625)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -7.62) (xy 7.62 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 7.62) (xy 0 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 7.62 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -10296,6 +10630,16 @@
 		)
 		(uuid "8b010ef7-48cd-43e2-a30b-969c184f0dc0")
 	)
+	(text "BMS Charge + NODE"
+		(exclude_from_sim no)
+		(at 22.606 131.318 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "91e2c1b7-6f7a-4dbd-995d-5906b9493d33")
+	)
 	(text "ESP32-S3-DEVKITC-1 HEADER\n"
 		(exclude_from_sim no)
 		(at 323.088 149.86 0)
@@ -10383,6 +10727,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "079721a3-3c12-4abb-a4ac-ac7c6c34a918")
+	)
+	(junction
+		(at 67.31 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07c2cfef-93f7-4927-b119-85f64be5aa37")
 	)
 	(junction
 		(at 298.45 113.03)
@@ -10763,6 +11113,12 @@
 		(uuid "6a11dd3b-fff3-4b94-b60c-9ab9e90d5f31")
 	)
 	(junction
+		(at 67.31 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d0eb75e-e93d-46b9-91b7-e3015fc19d1d")
+	)
+	(junction
 		(at 121.92 224.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11079,6 +11435,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc8faeb4-fddb-4f26-9696-a966c4f52641")
+	)
+	(junction
+		(at 39.37 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf9433ba-f063-48b3-aa76-31d21f0f24ab")
 	)
 	(junction
 		(at 191.77 54.61)
@@ -11438,6 +11800,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 147.32) (xy 74.93 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0773ff9a-aca8-44b2-9c43-e4a3a53fbbfa")
+	)
+	(wire
+		(pts
 			(xy 254 238.76) (xy 248.92 238.76)
 		)
 		(stroke
@@ -11678,6 +12050,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 147.32) (xy 74.93 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "138ef88c-c1ba-43ee-af75-8e7abf5a631b")
+	)
+	(wire
+		(pts
 			(xy 36.83 260.35) (xy 36.83 273.05)
 		)
 		(stroke
@@ -11735,6 +12117,16 @@
 			(type default)
 		)
 		(uuid "15d52921-2edb-49c6-9726-bc6f8379ccec")
+	)
+	(wire
+		(pts
+			(xy 71.12 157.48) (xy 71.12 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16018b8b-eeab-47fa-88d4-df8aaf7968af")
 	)
 	(wire
 		(pts
@@ -12518,6 +12910,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 157.48) (xy 71.12 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45843f0c-2276-4161-a84f-0fca7d6469f1")
+	)
+	(wire
+		(pts
 			(xy 85.09 214.63) (xy 85.09 250.19)
 		)
 		(stroke
@@ -12855,6 +13257,16 @@
 			(type default)
 		)
 		(uuid "539e825c-9fd3-49bf-a4a6-6a981fcf0cdd")
+	)
+	(wire
+		(pts
+			(xy 74.93 152.4) (xy 67.31 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "542e4ed4-5e1c-49a0-9030-d90ad7221117")
 	)
 	(wire
 		(pts
@@ -14188,6 +14600,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 129.54) (xy 39.37 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a189a8f8-d960-49f2-a0e7-9b4e29f4898b")
+	)
+	(wire
+		(pts
 			(xy 138.43 40.64) (xy 138.43 52.07)
 		)
 		(stroke
@@ -14315,6 +14737,16 @@
 			(type default)
 		)
 		(uuid "a9121c09-1dab-471d-bad8-acd5d027e774")
+	)
+	(wire
+		(pts
+			(xy 71.12 149.86) (xy 67.31 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9504cfd-b73a-4aec-8b70-33ba5005e9d4")
 	)
 	(wire
 		(pts
@@ -15278,6 +15710,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 129.54) (xy 39.37 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de667152-ca8a-42b6-af8f-bc63f441f267")
+	)
+	(wire
+		(pts
 			(xy 300.99 118.11) (xy 322.58 118.11)
 		)
 		(stroke
@@ -15518,7 +15960,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 121.92) (xy 39.37 146.05)
+			(xy 39.37 121.92) (xy 39.37 129.54)
 		)
 		(stroke
 			(width 0)
@@ -20535,8 +20977,8 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3819f5d0-3f73-41ec-b62b-9d8c8016f075")
@@ -20560,7 +21002,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal_CircularHoles"
 			(at 66.04 39.116 0)
 			(hide yes)
 			(show_name no)
@@ -21126,7 +21568,7 @@
 				)
 			)
 		)
-		(property "Description" "R_AGND: single-point tie AGND to GND at U1 thermal pad"
+		(property "Description" "Resistor, US symbol"
 			(at 134.62 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -21396,8 +21838,8 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -21422,7 +21864,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
 			(at 62.23 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -22589,6 +23031,146 @@
 		)
 	)
 	(symbol
+		(lib_id "Battguard:S5B-XH-A")
+		(at 85.09 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f07030c-8ddf-475b-bc49-507a23e9de07")
+		(property "Reference" "J17"
+			(at 93.98 151.1299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "S5B-XH-A"
+			(at 93.98 153.6699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TeamLib:JST_S5B-XH-A"
+			(at 85.09 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "27-1-20"
+			(at 85.09 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 85.09 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "6.1mm"
+			(at 85.09 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "JST"
+			(at 85.09 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "4"
+			(uuid "83ff777e-24a3-4ac8-bed1-dac9c0ca3541")
+		)
+		(pin "2"
+			(uuid "c91c82bc-791e-4376-8010-87326d213a1b")
+		)
+		(pin "5"
+			(uuid "fe2d3024-9cb2-43a6-9587-b911896dfd9d")
+		)
+		(pin "1"
+			(uuid "fd39bdfb-8c80-49c2-9fec-1af78a033ba9")
+		)
+		(pin "3"
+			(uuid "bd3e9b6f-8ff6-410a-88e4-d3856dc13127")
+		)
+		(instances
+			(project "BattGuard"
+				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 222.25 26.67 0)
 		(unit 1)
@@ -23237,10 +23819,10 @@
 				(justify bottom)
 			)
 		)
-		(pin "C"
+		(pin "1"
 			(uuid "ba2528c5-bab1-43b1-a5bd-53ce2292784c")
 		)
-		(pin "A"
+		(pin "2"
 			(uuid "d3172c64-45f1-422e-9c7f-a59c136b95da")
 		)
 		(instances
@@ -28888,10 +29470,10 @@
 				(justify bottom)
 			)
 		)
-		(pin "C"
+		(pin "1"
 			(uuid "cbb5644b-9d8d-4f4d-8c34-5bf3ceb39f9f")
 		)
-		(pin "A"
+		(pin "2"
 			(uuid "7b98dd9f-e334-4781-8190-c09c6a1a019e")
 		)
 		(instances
@@ -29421,7 +30003,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BattGuard:AMPHENOL_OQ0271510000G"
+		(property "Footprint" "BattGuard:CONN_SD-39522-003_02P_MOL"
 			(at 67.31 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -31923,10 +32505,10 @@
 				(justify bottom)
 			)
 		)
-		(pin "C"
+		(pin "1"
 			(uuid "fc115b8b-3e1c-416b-9ae8-059c94323d58")
 		)
-		(pin "A"
+		(pin "2"
 			(uuid "1919f96d-8f05-48f5-96f7-78888af4d878")
 		)
 		(instances
@@ -33140,6 +33722,83 @@
 			(project "BattGuard"
 				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 19.05 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce0937fc-838d-4ef0-872d-0a013328f93f")
+		(property "Reference" "J15"
+			(at 19.685 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 19.685 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
+			(at 19.05 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.05 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 19.05 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a6355dc4-61d2-482e-ab98-8d4664f074e6")
+		)
+		(instances
+			(project "BattGuard"
+				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -35874,8 +36533,8 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f3d35265-14aa-4ada-946c-2bd927a69ca0")
@@ -35899,7 +36558,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_AMASS:AMASS_XT60IPW-M_1x03_P7.20mm_Horizontal"
 			(at 196.85 195.58 0)
 			(hide yes)
 			(show_name no)
