@@ -1,0 +1,181 @@
+
+(rules PCB BattGuard.dsn
+  (snapAngle 
+    fortyfive_degree
+  )
+  (rule
+    (width 250.0)
+    (clearance 310.0)
+    (clearance 125.0 (type smd_to_turn_gap))
+    (clearance 77.6 (type smd))
+    (clearance 310.0 (type MID))
+    (clearance 310.0 (type POWER))
+    (clearance 310.0 (type SWITCH))
+    (clearance 310.0 (type SENSE))
+    (clearance 600.0 (type INPUT))
+    (clearance 250.0 (type "board_edge"))
+  )
+  (padstack "Via[0-3]_600:300_um"
+    (shape
+      (circle F.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle GND 600.0 0.0 0.0)
+    )
+    (shape
+      (circle PWR 600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (padstack "Via[0-3]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle GND 800.0 0.0 0.0)
+    )
+    (shape
+      (circle PWR 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-3]_600:300_um" "Via[0-3]_600:300_um" default
+  )
+  (via 
+    "Via[0-3]_800:400_um" "Via[0-3]_800:400_um" default
+  )
+  (via 
+    "Via[0-3]_600:300_um-MID" "Via[0-3]_600:300_um" MID
+  )
+  (via 
+    "Via[0-3]_800:400_um-MID" "Via[0-3]_800:400_um" MID
+  )
+  (via 
+    "Via[0-3]_600:300_um-POWER" "Via[0-3]_600:300_um" POWER
+  )
+  (via 
+    "Via[0-3]_800:400_um-POWER" "Via[0-3]_800:400_um" POWER
+  )
+  (via 
+    "Via[0-3]_600:300_um-SWITCH" "Via[0-3]_600:300_um" SWITCH
+  )
+  (via 
+    "Via[0-3]_800:400_um-SWITCH" "Via[0-3]_800:400_um" SWITCH
+  )
+  (via 
+    "Via[0-3]_600:300_um-SENSE" "Via[0-3]_600:300_um" SENSE
+  )
+  (via 
+    "Via[0-3]_800:400_um-SENSE" "Via[0-3]_800:400_um" SENSE
+  )
+  (via 
+    "Via[0-3]_600:300_um-INPUT" "Via[0-3]_600:300_um" INPUT
+  )
+  (via 
+    "Via[0-3]_800:400_um-INPUT" "Via[0-3]_800:400_um" INPUT
+  )
+  (viaRule
+    default "Via[0-3]_600:300_um"
+  )
+  (viaRule
+    default "Via[0-3]_600:300_um"
+  )
+  (viaRule
+    MID "Via[0-3]_600:300_um-MID"
+  )
+  (viaRule
+    POWER "Via[0-3]_800:400_um-POWER"
+  )
+  (viaRule
+    SWITCH "Via[0-3]_800:400_um-SWITCH"
+  )
+  (viaRule
+    SENSE "Via[0-3]_600:300_um-SENSE"
+  )
+  (viaRule
+    INPUT "Via[0-3]_800:400_um-INPUT"
+  )
+  (class default
+    "Net-(D1-Pad2)" "Net-(D2-Pad2)" /U0TXD /U0RXD /GPIO1 /GPIO2 /GPIO42 /GPIO41
+    /GPIO40 /GPIO39 /GPIO38 /GPIO37 /GPIO36 /GPIO35 /GPIO0 /GPIO45
+    /GPIO48 /GPIO47 /GPIO21 /GPIO20 /GPIO19 /BTST2 "Net-(D6-A)" "Net-(Q7-S)"
+    "Net-(Q7-G)" /GPIO10 "Net-(U1-ACUV)" /REGN "Net-(U1-DRV_SUP)" "Net-(J10-Pin_1)" "Net-(U3-P0A)" "Net-(U2-FB)"
+    "Net-(U2-CB)" /TS AGND /GPIO11 "Net-(C2-Pad1)" /GPIO8 /GPIO9 /GPIO18
+    "Net-(D11-A)" "Net-(U1-BTST1)" "Net-(U1-FB)" "Net-(J9-Pin_1)" /GPIO15 "Net-(D8-A)" "Net-(J12-Pin_1)" /HIDRV1
+    /LODRV2 /GPIO7 /LODRV1 /GPIO16 "Net-(D9-A)" "Net-(J8-D+)" "unconnected-(J8-SSRX--Pad5)" "unconnected-(J8-SSRX+-Pad6)"
+    "unconnected-(J8-SSTX--Pad8)" "unconnected-(J8-SSTX+-Pad9)" "Net-(J11-Pin_1)" /GPIO4 "Net-(U1-FSW_SYNC)" "unconnected-(J17-Pad2)" "unconnected-(J17-Pad3)" "unconnected-(J17-Pad4)"
+    "Net-(U7-FB)" "Net-(D7-A)" "unconnected-(U1-~{PG}-Pad6)" /FBG "unconnected-(U1-NC-Pad15)" "unconnected-(U1-NC-Pad16)" /HIDRV2 "unconnected-(U1-NC-Pad31)"
+    "Net-(U1-ACOV)" "Net-(J3-Pin_1)" "/Chip_PU" /GPIO5 /GPIO6 /GPIO17 /GPIO3 /GPIO46
+    "unconnected-(U3-NC-Pad7)" "Net-(U3-P0W)" "Net-(D10-A)"
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu PWR B.Cu)
+    )
+  )
+  (class MID
+    +BATT /+18.5V +5V +3V3 "Net-(Q7-D)" "Net-(J8-VBUS)"
+    (clearance_class MID)
+    (via_rule MID)
+    (rule
+      (width 1000.0)
+    )
+    (circuit 
+      (use_layer F.Cu PWR B.Cu)
+    )
+  )
+  (class POWER
+    "-BATT" /Vout /Vsystem
+    (clearance_class POWER)
+    (via_rule POWER)
+    (rule
+      (width 3000.0)
+    )
+    (circuit 
+      (use_layer F.Cu PWR B.Cu)
+    )
+  )
+  (class SWITCH
+    /SW1 /SW2 "Net-(U2-SW)" "Net-(U7-SW)"
+    (clearance_class SWITCH)
+    (via_rule SWITCH)
+    (rule
+      (width 1000.0)
+    )
+    (circuit 
+      (use_layer F.Cu PWR B.Cu)
+    )
+  )
+  (class SENSE
+    "Net-(U1-SRN)" "Net-(U1-SRP)" "Net-(U1-ACN)" "Net-(U1-ACP)"
+    (clearance_class SENSE)
+    (via_rule SENSE)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu PWR B.Cu)
+    )
+  )
+  (class INPUT
+    /Vsys VCC
+    (clearance_class INPUT)
+    (via_rule INPUT)
+    (rule
+      (width 3000.0)
+    )
+    (circuit 
+      (use_layer F.Cu PWR B.Cu)
+    )
+  )
+)
