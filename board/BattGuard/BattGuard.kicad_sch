@@ -10589,7 +10589,7 @@
 	)
 	(text "USB CIRCUIT\n"
 		(exclude_from_sim no)
-		(at 225.044 243.84 0)
+		(at 225.044 250.444 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10646,12 +10646,6 @@
 			)
 		)
 		(uuid "ee8b3112-31f6-47f2-99b1-4c2415280b6e")
-	)
-	(junction
-		(at 306.07 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0065f60a-b9a0-48c1-aff5-2fa531723a90")
 	)
 	(junction
 		(at 127 22.86)
@@ -11026,12 +11020,6 @@
 		(uuid "69ab4dec-744e-422f-9c12-4933ae3fa1b7")
 	)
 	(junction
-		(at 306.07 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6a11dd3b-fff3-4b94-b60c-9ab9e90d5f31")
-	)
-	(junction
 		(at 67.31 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11114,12 +11102,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8289622a-e37e-40b5-975e-730699b2646d")
-	)
-	(junction
-		(at 95.25 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "83e46bf3-4627-4c5d-b3db-9cfff564d235")
 	)
 	(junction
 		(at 298.45 95.25)
@@ -11392,10 +11374,10 @@
 		(uuid "c9bdeae8-ac75-4994-b10c-fe794e3f70e1")
 	)
 	(junction
-		(at 306.07 110.49)
+		(at 58.42 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cbfdf280-bd04-43ca-86fd-071edbb30aab")
+		(uuid "cd2705a9-a4ea-4a02-8d64-bcc80d337884")
 	)
 	(junction
 		(at 222.25 30.48)
@@ -11528,12 +11510,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa15c927-9ef5-43d8-8fd3-6c480f547799")
-	)
-	(junction
-		(at 306.07 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fba48eb2-5268-418e-97eb-070a0548d90f")
 	)
 	(junction
 		(at 176.53 30.48)
@@ -11774,16 +11750,6 @@
 			(type default)
 		)
 		(uuid "09073bd9-60e7-4751-8d10-c2a45b9e2c33")
-	)
-	(wire
-		(pts
-			(xy 95.25 22.86) (xy 102.87 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09dcdae5-b1ea-472e-bc79-2e2fc6747eb7")
 	)
 	(wire
 		(pts
@@ -12424,16 +12390,6 @@
 			(type default)
 		)
 		(uuid "2d439aaa-215d-4998-9427-1d60e3a26e14")
-	)
-	(wire
-		(pts
-			(xy 306.07 113.03) (xy 306.07 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2da05ddb-72de-4f4f-a8cb-db9426bb074c")
 	)
 	(wire
 		(pts
@@ -13227,7 +13183,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 22.86) (xy 60.96 22.86)
+			(xy 57.15 22.86) (xy 58.42 22.86)
 		)
 		(stroke
 			(width 0)
@@ -15517,16 +15473,6 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 110.49) (xy 306.07 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9870a08-3a99-43ba-8e82-feb2bd6c53fe")
-	)
-	(wire
-		(pts
 			(xy 109.22 212.09) (xy 111.76 212.09)
 		)
 		(stroke
@@ -15587,7 +15533,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 22.86) (xy 95.25 22.86)
+			(xy 88.9 22.86) (xy 102.87 22.86)
 		)
 		(stroke
 			(width 0)
@@ -15897,6 +15843,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 22.86) (xy 60.96 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5a66515-5fdd-427b-8bd2-7683b8e567a7")
+	)
+	(wire
+		(pts
 			(xy 36.83 252.73) (xy 36.83 255.27)
 		)
 		(stroke
@@ -15954,16 +15910,6 @@
 			(type default)
 		)
 		(uuid "f7c21fbd-1f1b-4fa6-a9ff-19b65948851f")
-	)
-	(wire
-		(pts
-			(xy 306.07 107.95) (xy 306.07 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8268f8e-7665-478d-aacf-8b739359c7aa")
 	)
 	(wire
 		(pts
@@ -21966,84 +21912,6 @@
 			(project "BattGuard"
 				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
 					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 95.25 22.86 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "45b84440-f817-454f-839c-4d3052e53332")
-		(property "Reference" "#PWR032"
-			(at 95.25 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 95.25 17.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 95.25 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "49d25b19-7d6b-440a-9bbe-b8b0c16a21c7")
-		)
-		(instances
-			(project "BattGuard"
-				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
-					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -31719,6 +31587,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 58.42 22.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba7ad795-9888-4aa1-bb5f-2d7b131278d7")
+		(property "Reference" "#PWR032"
+			(at 58.42 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 58.42 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 58.42 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1e2f7eac-fae4-4fb8-b723-74501296f485")
+		)
+		(instances
+			(project "BattGuard"
+				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 289.56 33.02 0)
 		(unit 1)
@@ -36918,7 +36864,7 @@
 				)
 			)
 		)
-		(property "Value" ".1"
+		(property "Value" "0.05"
 			(at 156.21 200.66 90)
 			(show_name no)
 			(do_not_autoplace no)
