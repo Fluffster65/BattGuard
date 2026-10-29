@@ -1,0 +1,176 @@
+(footprint "Fan_Wire_Pads_1x02_SMD"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(uuid "6c515290-4fae-4ffd-a60e-23f4f3eb32f6")
+	(at 0 0)
+	(descr "2-pin SMD solder pads for fan power wires, 2.0x3.0 mm, 3.5 mm pitch")
+	(tags "fan wire solder pad")
+	(property "Reference" "REF**"
+		(at 0 3.2 0)
+		(layer "F.SilkS")
+		(uuid "e00a7315-c57d-44e3-8161-6817c9b527d3")
+		(effects
+			(font
+				(size 1.0 1.0)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Fan_Wire_Pads_1x02_SMD"
+		(at 0 -3.2 0)
+		(layer "F.Fab")
+		(uuid "f32c3b19-6c2f-44c2-b80f-fc247abc3826")
+		(effects
+			(font
+				(size 1.0 1.0)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "706b5c4a-4e2a-4e67-95bd-e9c85bbd4842")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Fan power wire pads (+5V, GND)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b5010f87-a40c-48b9-bd44-6b1e5f0a5890")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.1 -1.85)
+		(end 3.1 -1.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "423dbf53-218c-4f87-80b0-ef2b487db350")
+	)
+	(fp_line
+		(start 3.1 -1.85)
+		(end 3.1 1.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "73562625-8984-46e0-94d9-0607752faddf")
+	)
+	(fp_line
+		(start 3.1 1.85)
+		(end -3.1 1.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0393e231-0132-4eb6-a1cf-3aaddcdc47be")
+	)
+	(fp_line
+		(start -3.1 1.85)
+		(end -3.1 -1.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0d743068-dbf0-4cb6-854e-05b5dd69a09f")
+	)
+	(fp_line
+		(start -3.35 -2.1)
+		(end 3.35 -2.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5fa310bf-8ceb-4259-801e-9495d4b395fc")
+	)
+	(fp_line
+		(start 3.35 -2.1)
+		(end 3.35 2.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7a6a4e7f-911c-421a-a294-a42f516432fb")
+	)
+	(fp_line
+		(start 3.35 2.1)
+		(end -3.35 2.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b07574dc-6459-46a2-a1e7-11d075268183")
+	)
+	(fp_line
+		(start -3.35 2.1)
+		(end -3.35 -2.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "34e4328f-71fd-442b-9ab6-9b0722319c86")
+	)
+	(fp_text user "+"
+		(at -1.75 -2.6 0)
+		(layer "F.SilkS")
+		(uuid "e2daf876-d20d-41d1-817f-0e7242a39887")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "-"
+		(at 1.75 -2.6 0)
+		(layer "F.SilkS")
+		(uuid "a74b04c5-23ef-4860-afec-3ad96ed03f95")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.75 0)
+		(size 2 3)
+		(layers "F.Cu" "F.Mask")
+		(pinfunction "Pin_1")
+		(pintype "passive")
+		(uuid "8c730ae7-fc2a-4834-9b9b-d8253e017406")
+	)
+	(pad "2" smd rect
+		(at 1.75 0)
+		(size 2 3)
+		(layers "F.Cu" "F.Mask")
+		(pinfunction "Pin_2")
+		(pintype "passive")
+		(uuid "c1e80bef-f01f-4499-955e-6aa8c47f4e50")
+	)
+	(embedded_fonts no)
+)

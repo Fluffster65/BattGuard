@@ -647,11 +647,11 @@
     "netclass_patterns": [
       {
         "netclass": "INPUT",
-        "pattern": "Net-(D1-*A)"
+        "pattern": "/SOLAR_PROT"
       },
       {
         "netclass": "INPUT",
-        "pattern": "Net-(D2-*A)"
+        "pattern": "/BARREL_IN"
       },
       {
         "netclass": "INPUT",
@@ -675,7 +675,7 @@
       },
       {
         "netclass": "POWER",
-        "pattern": "-BATT"
+        "pattern": "GND"
       },
       {
         "netclass": "SWITCH",
@@ -747,7 +747,7 @@
       },
       {
         "netclass": "INPUT",
-        "pattern": "|VCC"
+        "pattern": "/SOLAR_IN"
       }
     ]
   },
@@ -1042,7 +1042,7 @@
         "uuid": "236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
       }
     ],
-    "used_designators": "R13-49,J3-17,TH1,#PWR22-71,#PWR79,D5-11,C41-57,Q5-9,U2-7,L2-5,F1,SW1-2,TH1(103AT\\-2)1",
+    "used_designators": "J3-17,R13-49,TH1,D5-11,#PWR22-71,#PWR79,C41-57,Q5-9,U2-7,L2-5,F1,SW1-2,TH1(103AT\\-2)1",
     "variants": []
   },
   "sheets": [

@@ -6632,6 +6632,186 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Polarized_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized_US"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Polarized capacitor, US symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor electrolytic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Polarized_US_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.032 -1.27)
+					(mid 0 -0.5572)
+					(end 2.032 -1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Polarized_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 3.302)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_US"
 			(pin_numbers
 				(hide yes)
@@ -10619,7 +10799,7 @@
 	)
 	(text "VIN\nfor \nBQ"
 		(exclude_from_sim no)
-		(at 89.408 19.05 0)
+		(at 94.234 17.018 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11254,6 +11434,12 @@
 		(uuid "a753cc0c-7d7c-475c-a32f-18cdf354d88c")
 	)
 	(junction
+		(at 58.42 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a77cbd31-23a4-411c-935f-f10d5a6d9ab4")
+	)
+	(junction
 		(at 85.09 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11372,12 +11558,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c9bdeae8-ac75-4994-b10c-fe794e3f70e1")
-	)
-	(junction
-		(at 58.42 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cd2705a9-a4ea-4a02-8d64-bcc80d337884")
 	)
 	(junction
 		(at 222.25 30.48)
@@ -12040,6 +12220,16 @@
 			(type default)
 		)
 		(uuid "176ab2da-cd18-4a73-bcec-eb9eb4284d1b")
+	)
+	(wire
+		(pts
+			(xy 259.08 149.86) (xy 264.16 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17de80ea-0829-4201-82fa-6be283cbe688")
 	)
 	(wire
 		(pts
@@ -12823,6 +13013,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 152.4) (xy 261.62 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "486f387d-e587-483a-9812-1d30c73d99c1")
+	)
+	(wire
+		(pts
 			(xy 327.66 177.8) (xy 342.9 177.8)
 		)
 		(stroke
@@ -12970,6 +13170,16 @@
 			(type default)
 		)
 		(uuid "4e90c138-5bd9-4aeb-aa7c-8cd9fc6cfe84")
+	)
+	(wire
+		(pts
+			(xy 58.42 22.86) (xy 60.96 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ec587b7-40b0-484f-968e-9600d3375555")
 	)
 	(wire
 		(pts
@@ -14433,6 +14643,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 20.32) (xy 58.42 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0de374a-a3bc-4e31-8de9-aadb15346dba")
+	)
+	(wire
+		(pts
 			(xy 24.13 127) (xy 39.37 127)
 		)
 		(stroke
@@ -15473,6 +15693,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 165.1) (xy 264.16 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9d6b881-33b5-466b-9184-c648cd37c252")
+	)
+	(wire
+		(pts
 			(xy 109.22 212.09) (xy 111.76 212.09)
 		)
 		(stroke
@@ -15630,6 +15860,16 @@
 			(type default)
 		)
 		(uuid "e48650e8-5234-4e42-94a8-10e856ca1c92")
+	)
+	(wire
+		(pts
+			(xy 259.08 167.64) (xy 261.62 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5ba0c0c-701f-4840-9e34-30205fd4dd80")
 	)
 	(wire
 		(pts
@@ -15840,16 +16080,6 @@
 			(type default)
 		)
 		(uuid "f4e2a8e5-b1d3-430d-be95-4768d3398758")
-	)
-	(wire
-		(pts
-			(xy 58.42 22.86) (xy 60.96 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5a66515-5fdd-427b-8bd2-7683b8e567a7")
 	)
 	(wire
 		(pts
@@ -16451,6 +16681,16 @@
 		)
 		(uuid "83d0d355-28cf-464b-af46-c35445da6097")
 	)
+	(label "SOLAR_IN"
+		(at 58.42 20.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8401068d-e434-4bf8-a8b0-a4a18dbc0609")
+	)
 	(label "GPIO17"
 		(at 309.88 90.17 0)
 		(effects
@@ -16880,6 +17120,26 @@
 			(justify left bottom)
 		)
 		(uuid "fccda97d-7394-4b21-835d-5897f3f030bc")
+	)
+	(label "SOLAR_PROT"
+		(at 73.66 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2a3eeacc-9b3f-478c-a067-a53390fcb9f4")
+	)
+	(label "BARREL_IN"
+		(at 73.66 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c8d6805a-770a-40ad-9630-293ed517477c")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -19166,7 +19426,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_US")
+		(lib_id "Device:C_Polarized_US")
 		(at 163.83 26.67 0)
 		(unit 1)
 		(body_style 1)
@@ -19221,7 +19481,7 @@
 				)
 			)
 		)
-		(property "Description" "capacitor, US symbol"
+		(property "Description" "Polarized capacitor, US symbol"
 			(at 163.83 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -20423,6 +20683,84 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
+		(at 264.16 165.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "317c3486-1c4a-449f-875d-8d11766ec557")
+		(property "Reference" "#PWR085"
+			(at 264.16 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 264.16 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 264.16 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f1974536-e33a-4485-acb5-2fb430c11852")
+		)
+		(instances
+			(project "BattGuard"
+				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
+					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
 		(at 237.49 261.62 0)
 		(unit 1)
 		(body_style 1)
@@ -20660,7 +20998,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_US")
+		(lib_id "Device:C_Polarized_US")
 		(at 123.19 26.67 0)
 		(unit 1)
 		(body_style 1)
@@ -20715,7 +21053,7 @@
 				)
 			)
 		)
-		(property "Description" "capacitor, US symbol"
+		(property "Description" "Polarized capacitor, US symbol"
 			(at 123.19 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -21112,7 +21450,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMC"
+		(property "Footprint" "TeamLib:DIO_V1FM10-M3_H"
 			(at 191.77 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -21608,7 +21946,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -25906,7 +26244,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_US")
+		(lib_id "Device:C_Polarized_US")
 		(at 21.59 139.7 0)
 		(unit 1)
 		(body_style 1)
@@ -25961,7 +26299,7 @@
 				)
 			)
 		)
-		(property "Description" "capacitor, US symbol"
+		(property "Description" "Polarized capacitor, US symbol"
 			(at 21.59 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -25988,7 +26326,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_US")
+		(lib_id "Device:C_Polarized_US")
 		(at 308.61 50.8 0)
 		(unit 1)
 		(body_style 1)
@@ -26043,7 +26381,7 @@
 				)
 			)
 		)
-		(property "Description" "capacitor, US symbol"
+		(property "Description" "Polarized capacitor, US symbol"
 			(at 308.61 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -26943,6 +27281,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 261.62 167.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b438deb-49fc-4f9c-b9e9-d32130633a24")
+		(property "Reference" "#PWR086"
+			(at 261.62 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 261.62 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 261.62 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0a894236-f6d6-4049-a32e-cc9683096552")
+		)
+		(instances
+			(project "BattGuard"
+				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
+					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 313.69 190.5 0)
 		(unit 1)
 		(body_style 1)
@@ -27102,7 +27518,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_US")
+		(lib_id "Device:C_Polarized_US")
 		(at 113.03 26.67 0)
 		(unit 1)
 		(body_style 1)
@@ -27157,7 +27573,7 @@
 				)
 			)
 		)
-		(property "Description" "capacitor, US symbol"
+		(property "Description" "Polarized capacitor, US symbol"
 			(at 113.03 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -29224,7 +29640,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100 uF"
+		(property "Value" "2.2uF 100V"
 			(at 106.68 38.3539 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29235,7 +29651,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 102.87 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -29563,6 +29979,86 @@
 			(project "BattGuard"
 				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 254 165.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "993cd6f2-11ce-4f7b-af87-2fc1eabe90bb")
+		(property "Reference" "J19"
+			(at 254.64 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FAN2 5V"
+			(at 254.64 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TeamLib:Fan_Wire_Pads_1x02_SMD"
+			(at 254 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 254 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3793c7b0-60ec-40f2-a1c9-2f1d11c33a23")
+		)
+		(pin "2"
+			(uuid "afaa8456-f82b-4a35-abdd-69f24d178aa3")
+		)
+		(instances
+			(project "BattGuard"
+				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
+					(reference "J19")
 					(unit 1)
 				)
 			)
@@ -30816,7 +31312,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_US")
+		(lib_id "Device:C_Polarized_US")
 		(at 290.83 50.8 0)
 		(unit 1)
 		(body_style 1)
@@ -30871,7 +31367,7 @@
 				)
 			)
 		)
-		(property "Description" "capacitor, US symbol"
+		(property "Description" "Polarized capacitor, US symbol"
 			(at 290.83 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -31233,7 +31729,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_US")
+		(lib_id "Device:C_Polarized_US")
 		(at 373.38 198.12 0)
 		(unit 1)
 		(body_style 1)
@@ -31287,7 +31783,7 @@
 				)
 			)
 		)
-		(property "Description" "capacitor, US symbol"
+		(property "Description" "Polarized capacitor, US symbol"
 			(at 373.38 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -31588,7 +32084,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 58.42 22.86 0)
+		(at 88.9 22.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31599,7 +32095,7 @@
 		(fields_autoplaced yes)
 		(uuid "ba7ad795-9888-4aa1-bb5f-2d7b131278d7")
 		(property "Reference" "#PWR032"
-			(at 58.42 26.67 0)
+			(at 88.9 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31610,7 +32106,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 58.42 17.78 0)
+			(at 88.9 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31620,7 +32116,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 22.86 0)
+			(at 88.9 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31631,7 +32127,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 22.86 0)
+			(at 88.9 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31642,7 +32138,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 58.42 22.86 0)
+			(at 88.9 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32591,6 +33087,84 @@
 			(project "BattGuard"
 				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 264.16 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c399d650-e946-4403-8967-1f1408824c96")
+		(property "Reference" "#PWR083"
+			(at 264.16 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 264.16 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 264.16 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "31cab2eb-e2d6-4db7-a1b9-151668c6002e")
+		)
+		(instances
+			(project "BattGuard"
+				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -35636,7 +36210,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMC"
+		(property "Footprint" "TeamLib:DIO_V1FM10-M3_H"
 			(at 281.94 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -36522,6 +37096,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 261.62 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2623aa9-a9de-4488-83cd-a1cf84970c19")
+		(property "Reference" "#PWR084"
+			(at 261.62 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 261.62 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 261.62 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7c0846c1-a575-47ca-a288-edb298027889")
+		)
+		(instances
+			(project "BattGuard"
+				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
+					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 196.85 195.58 0)
 		(unit 1)
@@ -36761,7 +37413,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_US")
+		(lib_id "Device:C_Polarized_US")
 		(at 379.73 198.12 0)
 		(unit 1)
 		(body_style 1)
@@ -36816,7 +37468,7 @@
 				)
 			)
 		)
-		(property "Description" "capacitor, US symbol"
+		(property "Description" "Polarized capacitor, US symbol"
 			(at 379.73 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -36923,7 +37575,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_US")
+		(lib_id "Device:C_Polarized_US")
 		(at 276.86 33.02 0)
 		(unit 1)
 		(body_style 1)
@@ -36978,7 +37630,7 @@
 				)
 			)
 		)
-		(property "Description" "capacitor, US symbol"
+		(property "Description" "Polarized capacitor, US symbol"
 			(at 276.86 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -37632,6 +38284,86 @@
 			(project "BattGuard"
 				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 254 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fae37a29-7fb7-4ed3-859e-ebe38bd0ed76")
+		(property "Reference" "J18"
+			(at 254.64 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FAN1 5V"
+			(at 254.64 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TeamLib:Fan_Wire_Pads_1x02_SMD"
+			(at 254 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 254 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "338b742b-fee3-4942-aeb5-97a67ca26ec2")
+		)
+		(pin "2"
+			(uuid "cc8be2d2-5b89-4809-b22d-d5c869295a87")
+		)
+		(instances
+			(project "BattGuard"
+				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
+					(reference "J18")
 					(unit 1)
 				)
 			)
