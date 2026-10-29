@@ -22170,7 +22170,7 @@
 		(fields_autoplaced yes)
 		(uuid "3625463e-f511-42bd-9f4e-86e187b0d6db")
 		(property "Reference" "C5"
-			(at 127 25.6539 0)
+			(at 127 24.7649 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22180,8 +22180,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "56uF"
-			(at 127 28.1939 0)
+		(property "Value" "56uF 80v"
+			(at 127 27.3049 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25810,8 +25810,8 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c63939e-45de-4b0c-898e-b68547f3b6d4")
@@ -25835,7 +25835,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 334.01 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -28775,7 +28775,7 @@
 		(fields_autoplaced yes)
 		(uuid "7d00ba6c-9cb3-4b95-9c13-6b93e290b938")
 		(property "Reference" "C4"
-			(at 116.84 25.6539 0)
+			(at 116.84 24.7649 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28785,8 +28785,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "56uF"
-			(at 116.84 28.1939 0)
+		(property "Value" "56uF 80v"
+			(at 116.84 27.3049 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
