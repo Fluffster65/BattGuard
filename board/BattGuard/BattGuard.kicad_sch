@@ -8992,8 +8992,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at -12.446 4.826 0)
+			(property "Reference" "Q5"
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -9003,7 +9003,7 @@
 				)
 			)
 			(property "Value" "Q_PMOS_DGS"
-				(at 0 0 0)
+				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -9012,7 +9012,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "TeamLib:SOIC127P600X175-8N"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -9023,7 +9023,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "file://C:\\Users\\Fluff\\OneDrive\\Documents\\GitHub\\BattGuard\\board\\Datasheets\\DMP6023LSS - PMOS.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -12410,12 +12410,6 @@
 		(uuid "b3b60d6a-671c-48ec-9838-74ff0874c1e4")
 	)
 	(junction
-		(at 41.91 204.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b4ab697a-4fb0-47cf-81c5-457a23744646")
-	)
-	(junction
 		(at 246.38 213.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12666,12 +12660,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd0190f1-5839-4936-9eef-f52da427801b")
-	)
-	(junction
-		(at 397.51 194.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "feff2b98-ca67-464a-9ac5-b2057269a237")
 	)
 	(junction
 		(at 160.02 204.47)
@@ -13859,16 +13847,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 236.22) (xy 41.91 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40652d6a-d17a-468a-90db-ee8a4ffd6260")
-	)
-	(wire
-		(pts
 			(xy 229.87 198.12) (xy 229.87 195.58)
 		)
 		(stroke
@@ -14209,7 +14187,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 204.47) (xy 49.53 204.47)
+			(xy 39.37 204.47) (xy 49.53 204.47)
 		)
 		(stroke
 			(width 0)
@@ -14936,16 +14914,6 @@
 			(type default)
 		)
 		(uuid "79968c99-3bf6-4ea1-b44e-81691bca6489")
-	)
-	(wire
-		(pts
-			(xy 39.37 204.47) (xy 41.91 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a11c5d7-e288-45de-a67a-e04743ff11ef")
 	)
 	(wire
 		(pts
@@ -15736,7 +15704,7 @@
 			(type default)
 		)
 		(uuid "a41da546-9ea0-4161-ba86-35f187199503")
-	)
+	)
 	(wire
 		(pts
 			(xy 335.28 36.83) (xy 335.28 39.37)
@@ -16829,16 +16797,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 236.22) (xy 41.91 236.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e07cf6d3-a64a-4059-8aba-8275f2b5910b")
-	)
-	(wire
-		(pts
 			(xy 39.37 157.48) (xy 39.37 171.45)
 		)
 		(stroke
@@ -17186,16 +17144,6 @@
 			(type default)
 		)
 		(uuid "f748b00d-a16b-4120-bcce-af212f7fd845")
-	)
-	(wire
-		(pts
-			(xy 68.58 240.03) (xy 68.58 236.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7c21fbd-1f1b-4fa6-a9ff-19b65948851f")
 	)
 	(wire
 		(pts
@@ -36250,7 +36198,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "file://C:\\Users\\Fluff\\OneDrive\\Documents\\GitHub\\BattGuard\\board\\Datasheets\\DMP6023LSS - PMOS.pdf"
 			(at 66.04 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -39119,7 +39067,7 @@
 				)
 			)
 		)
-	)
+	)
 	(symbol
 		(lib_id "Device:C")
 		(at 176.53 26.67 0)
