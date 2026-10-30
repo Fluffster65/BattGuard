@@ -4051,6 +4051,586 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Battguard:B41858C7227M000"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at -5.08 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "B41858C7227M000"
+				(at -5.08 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "B41858C7227M000:CAPPRD500W60D1000H1350"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "220 µF 35 V Aluminum Electrolytic Capacitors Radial, Can 129mOhm @ 10kHz 5000 Hrs @ 105°C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "TDK"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "13.5 mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/B41858C7227M000/TDK/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "IPC-7351B"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "2018-10"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/B41858C7227M000/TDK/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "B41858C7227M000"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "TDK"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "B41858C7227M000_0_0"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -3.713 -1.532)
+					(end -2.824 -1.405)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -3.332 -1.913)
+					(end -3.205 -1.024)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 2.54) (xy -2.032 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -2.54)
+					(mid -1.0549 0)
+					(end -0.254 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Battguard:ECA1CM220I"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at -2.54 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "ECA1CM220I"
+				(at -2.54 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "ECA1CM220I:CAPPRD250W50D500H1100"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "M-A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "PANASONIC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "b_max" "0.55"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "b_nom" "0.5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "20-DEC-19"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "A_max" "11"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "D_nom" "5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "e_nom" "2.5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "ECA1CM220I_0_0"
+				(rectangle
+					(start -1.173 -1.532)
+					(end -0.284 -1.405)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.792 -1.913)
+					(end -0.665 -1.024)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.54) (xy 0.508 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0) (xy 0.508 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.286 -2.54)
+					(mid 1.4851 0)
+					(end 2.286 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Battguard:S5B-XH-A"
 			(pin_names
 				(offset 1.016)
@@ -4378,6 +4958,325 @@
 						(effects
 							(font
 								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Battguard:UPJ1K560MPD6"
+			(body_styles demorgan)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 3.81 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "UPJ1K560MPD6"
+				(at 3.81 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "CAP_UPJ_10X15_NCH"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "UPJ1K560MPD6"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "UPJ1K560MPD6"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "CAP_UPJ_10X15_NCH"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "UPJ1K560MPD6_1_1"
+				(polyline
+					(pts
+						(xy 0.9525 0.9525) (xy 1.5875 0.9525)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 0.635)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.4798 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.4798 -1.905) (xy 3.4798 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.1148 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.1148 -1.905) (xy 4.1148 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "UPJ1K560MPD6_1_2"
+				(polyline
+					(pts
+						(xy -1.905 -3.4798) (xy 1.905 -3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -4.1148) (xy 1.905 -4.1148)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.1148) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.3175 -1.5875) (xy 0.9525 -1.5875)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -1.27) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -6614,186 +7513,6 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:C_Polarized_US"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized_US"
-				(at 0.635 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Polarized capacitor, US symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cap capacitor electrolytic"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_Polarized_US_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.794) (xy -1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.032 -1.27)
-					(mid 0 -0.5572)
-					(end 2.032 -1.27)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_Polarized_US_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 3.302)
 					(name ""
 						(effects
 							(font
@@ -11792,12 +12511,6 @@
 		(uuid "098e4b4e-c75b-4026-b93e-05447ae289f0")
 	)
 	(junction
-		(at 308.61 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0a343872-ced4-408e-9f3e-bc8f058cc9f7")
-	)
-	(junction
 		(at 322.58 226.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11828,12 +12541,6 @@
 		(uuid "10706e82-24aa-442b-849b-2075ca391cf2")
 	)
 	(junction
-		(at 113.03 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "129c818a-c046-4f3b-a99c-a1308139e115")
-	)
-	(junction
 		(at 347.98 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11844,6 +12551,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1af174c2-3869-4cfb-9e42-c1538fac6b1f")
+	)
+	(junction
+		(at 21.59 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b5e7c25-116e-4259-9075-941bf8fe932f")
 	)
 	(junction
 		(at 154.94 36.83)
@@ -11954,12 +12667,6 @@
 		(uuid "33dccf7f-c8c9-41e3-aa65-22c3369995ab")
 	)
 	(junction
-		(at 21.59 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "34e5b847-5795-4984-b330-8d2c837b51f7")
-	)
-	(junction
 		(at 369.57 226.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11978,10 +12685,22 @@
 		(uuid "381828d8-f484-41b4-8242-5eba80155bb8")
 	)
 	(junction
+		(at 55.88 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "395a5f04-107d-4f9b-9b77-624f1de367a7")
+	)
+	(junction
 		(at 73.66 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d16642e-bf9b-43b2-bf96-810ab78fdf8e")
+	)
+	(junction
+		(at 373.38 194.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ed88d1c-7ece-4f8c-9b98-c87bd7cbb20e")
 	)
 	(junction
 		(at 234.95 30.48)
@@ -12018,12 +12737,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4cc52f00-d136-4050-a3e9-5f73441f0be3")
-	)
-	(junction
-		(at 276.86 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "50d973dc-33cf-431c-ae27-cc17ab770e18")
 	)
 	(junction
 		(at 303.53 29.21)
@@ -12194,6 +12907,12 @@
 		(uuid "7d1a190d-475a-45a4-b6e3-462c66d0201f")
 	)
 	(junction
+		(at 163.83 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d473eb2-5e79-43a8-a49b-6633d083da6c")
+	)
+	(junction
 		(at 298.45 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12278,12 +12997,6 @@
 		(uuid "8f5b3491-e857-4567-bede-d894d5ab406f")
 	)
 	(junction
-		(at 379.73 194.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8f655764-5b42-4498-8a31-eb259a7d29a7")
-	)
-	(junction
 		(at 90.17 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12324,12 +13037,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b4e8a60-b37e-4b57-9554-c4bd97ada1f6")
-	)
-	(junction
-		(at 373.38 194.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9c4c7131-b0ab-44a1-81ed-dbd1de657e9f")
 	)
 	(junction
 		(at 39.37 146.05)
@@ -12416,6 +13123,12 @@
 		(uuid "b4c8bbbd-dd3e-4341-9a02-f9e995e1b19f")
 	)
 	(junction
+		(at 379.73 194.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b55e0bbd-7d73-4f67-a152-d92d79720c15")
+	)
+	(junction
 		(at 138.43 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12494,16 +13207,16 @@
 		(uuid "c9bdeae8-ac75-4994-b10c-fe794e3f70e1")
 	)
 	(junction
+		(at 113.03 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb84a948-bf90-46f9-99d9-258cb5468d16")
+	)
+	(junction
 		(at 222.25 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd7c8300-32fb-4964-876f-571885d2c752")
-	)
-	(junction
-		(at 123.19 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d00ba962-9d49-4f2f-b987-e811bd9a4ec9")
 	)
 	(junction
 		(at 322.58 80.01)
@@ -12536,10 +13249,22 @@
 		(uuid "d57b035d-21c9-4c96-b174-e06a8b0e595a")
 	)
 	(junction
+		(at 307.34 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5c03d83-5288-4ac9-9528-c255f570984e")
+	)
+	(junction
 		(at 298.45 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7d70fc2-926b-4a63-965b-8432958b04d3")
+	)
+	(junction
+		(at 276.86 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0b116b6-9a4a-4346-a0fd-bdc1a68dd3ce")
 	)
 	(junction
 		(at 265.43 261.62)
@@ -12572,6 +13297,12 @@
 		(uuid "e5c9f96e-0fc9-49be-82f4-9ac81df70625")
 	)
 	(junction
+		(at 307.34 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6194d68-dc91-4c12-bfea-ecfdb9cade6a")
+	)
+	(junction
 		(at 347.98 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12582,6 +13313,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e6a6d846-f6dc-456d-946c-36673d84105a")
+	)
+	(junction
+		(at 123.19 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e73d6867-8ab1-42fa-a6f9-b55976847187")
 	)
 	(junction
 		(at 334.01 182.88)
@@ -12596,22 +13333,10 @@
 		(uuid "ec5400b4-c643-4f64-b56c-e3faaa0676d2")
 	)
 	(junction
-		(at 308.61 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eda6e811-d965-4ec2-8528-1784a9c2e5a9")
-	)
-	(junction
 		(at 222.25 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef50f815-5591-4061-b786-76ec8c5801f5")
-	)
-	(junction
-		(at 163.83 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "efc94171-b857-44fa-9f58-6ba624efa6b1")
 	)
 	(junction
 		(at 325.12 36.83)
@@ -12817,6 +13542,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 22.86) (xy 176.53 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0607a9e5-ecb8-459c-9619-4f17ea25002d")
+	)
+	(wire
+		(pts
 			(xy 375.92 66.04) (xy 375.92 67.31)
 		)
 		(stroke
@@ -12957,6 +13692,16 @@
 	)
 	(wire
 		(pts
+			(xy 307.34 46.99) (xy 325.12 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f10c464-5892-41b2-bd01-1ef3da5dc6d4")
+	)
+	(wire
+		(pts
 			(xy 392.43 114.3) (xy 392.43 115.57)
 		)
 		(stroke
@@ -12974,6 +13719,16 @@
 			(type default)
 		)
 		(uuid "10058d35-0e1f-4eb1-bea6-92fa7aad5ce9")
+	)
+	(wire
+		(pts
+			(xy 55.88 226.06) (xy 55.88 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "100b31ed-f14a-48ab-bbb2-b3223ffbe899")
 	)
 	(wire
 		(pts
@@ -13027,7 +13782,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 29.21) (xy 289.56 29.21)
+			(xy 266.7 29.21) (xy 276.86 29.21)
 		)
 		(stroke
 			(width 0)
@@ -13037,7 +13792,7 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 194.31) (xy 392.43 194.31)
+			(xy 367.03 194.31) (xy 379.73 194.31)
 		)
 		(stroke
 			(width 0)
@@ -13217,7 +13972,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 135.89) (xy 39.37 135.89)
+			(xy 13.97 135.89) (xy 21.59 135.89)
 		)
 		(stroke
 			(width 0)
@@ -13277,7 +14032,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 46.99) (xy 308.61 46.99)
+			(xy 290.83 46.99) (xy 307.34 46.99)
 		)
 		(stroke
 			(width 0)
@@ -13357,16 +14112,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 22.86) (xy 127 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24223140-7e58-4b8a-9924-6f22ed029399")
-	)
-	(wire
-		(pts
 			(xy 234.95 30.48) (xy 246.38 30.48)
 		)
 		(stroke
@@ -13394,6 +14139,16 @@
 			(type default)
 		)
 		(uuid "260a3848-5e52-4cef-a0a3-8db20e0c8501")
+	)
+	(wire
+		(pts
+			(xy 307.34 54.61) (xy 325.12 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "261a001b-e3d9-4d16-98aa-71cf42e2b2e0")
 	)
 	(wire
 		(pts
@@ -13437,6 +14192,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 135.89) (xy 39.37 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27300118-6a42-4846-8e2f-230c9b4d19bd")
+	)
+	(wire
+		(pts
 			(xy 148.59 204.47) (xy 152.4 204.47)
 		)
 		(stroke
@@ -13467,7 +14232,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 204.47) (xy 58.42 204.47)
+			(xy 49.53 204.47) (xy 55.88 204.47)
 		)
 		(stroke
 			(width 0)
@@ -14397,6 +15162,16 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 29.21) (xy 289.56 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59ff1089-ace8-4a95-b14d-caf9edf552de")
+	)
+	(wire
+		(pts
 			(xy 73.66 129.54) (xy 73.66 128.27)
 		)
 		(stroke
@@ -14494,6 +15269,16 @@
 			(type default)
 		)
 		(uuid "5e66eb0f-2e10-40c4-8f96-ae9ea7c7778f")
+	)
+	(wire
+		(pts
+			(xy 55.88 204.47) (xy 58.42 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ed30b89-178a-4fa1-81cd-860dd28a80d6")
 	)
 	(wire
 		(pts
@@ -14927,16 +15712,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 29.21) (xy 276.86 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ad43066-371f-43eb-b082-5a58edb6289a")
-	)
-	(wire
-		(pts
 			(xy 154.94 40.64) (xy 154.94 53.34)
 		)
 		(stroke
@@ -14974,6 +15749,26 @@
 			(type default)
 		)
 		(uuid "7bfe2b93-0ff0-4e60-983e-2a563e047e42")
+	)
+	(wire
+		(pts
+			(xy 379.73 194.31) (xy 392.43 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c25e728-f6d3-4ccb-aa21-b079e0566f1b")
+	)
+	(wire
+		(pts
+			(xy 68.58 240.03) (xy 68.58 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c8f2a75-21b0-4156-9a62-015834b0a370")
 	)
 	(wire
 		(pts
@@ -15247,6 +16042,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 22.86) (xy 123.19 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86748266-f23f-4b2f-aa53-d1ac61119f5b")
+	)
+	(wire
+		(pts
 			(xy 325.12 54.61) (xy 340.36 54.61)
 		)
 		(stroke
@@ -15377,7 +16182,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 54.61) (xy 308.61 54.61)
+			(xy 290.83 54.61) (xy 307.34 54.61)
 		)
 		(stroke
 			(width 0)
@@ -15457,23 +16262,13 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 22.86) (xy 123.19 22.86)
+			(xy 102.87 22.86) (xy 113.03 22.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "950f6a69-923b-4e41-8195-cdc8cb2e4d0e")
-	)
-	(wire
-		(pts
-			(xy 154.94 22.86) (xy 163.83 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95a0c0db-f686-494e-8ae6-17dc467c4bda")
 	)
 	(wire
 		(pts
@@ -15537,16 +16332,6 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 46.99) (xy 325.12 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a729664-3e5f-4c34-aae4-d6ea36347282")
-	)
-	(wire
-		(pts
 			(xy 335.28 36.83) (xy 347.98 36.83)
 		)
 		(stroke
@@ -15574,6 +16359,16 @@
 			(type default)
 		)
 		(uuid "9b94b74d-f350-43e3-9b58-db9d4ebe7459")
+	)
+	(wire
+		(pts
+			(xy 123.19 22.86) (xy 127 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e232ffb-a152-4123-b8ba-eed22e9e515e")
 	)
 	(wire
 		(pts
@@ -15704,6 +16499,16 @@
 			(type default)
 		)
 		(uuid "a41da546-9ea0-4161-ba86-35f187199503")
+	)
+	(wire
+		(pts
+			(xy 68.58 226.06) (xy 55.88 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4fc8cb1-0bff-4cf4-9ab0-094c7f1d943b")
 	)
 	(wire
 		(pts
@@ -15887,16 +16692,6 @@
 	)
 	(wire
 		(pts
-			(xy 13.97 135.89) (xy 21.59 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac5ca03a-82ca-4b81-8485-e60bbb11acc5")
-	)
-	(wire
-		(pts
 			(xy 63.5 273.05) (xy 36.83 273.05)
 		)
 		(stroke
@@ -15907,7 +16702,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 22.86) (xy 176.53 22.86)
+			(xy 154.94 22.86) (xy 163.83 22.86)
 		)
 		(stroke
 			(width 0)
@@ -16127,16 +16922,6 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 194.31) (xy 373.38 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b90b8f32-c848-4de7-8a4e-9e30ea8ed369")
-	)
-	(wire
-		(pts
 			(xy 331.47 180.34) (xy 339.09 180.34)
 		)
 		(stroke
@@ -16154,16 +16939,6 @@
 			(type default)
 		)
 		(uuid "ba607ea1-9291-48fe-a2ca-ad3e5030a814")
-	)
-	(wire
-		(pts
-			(xy 308.61 54.61) (xy 325.12 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbaa6359-160a-4f8f-aacd-3bfcbf7974c8")
 	)
 	(wire
 		(pts
@@ -16394,16 +17169,6 @@
 			(type default)
 		)
 		(uuid "c8cbe191-7e4a-4924-bf6f-9af4b85ca4af")
-	)
-	(wire
-		(pts
-			(xy 102.87 22.86) (xy 113.03 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c915744b-b912-45ab-929d-5e9079d521e0")
 	)
 	(wire
 		(pts
@@ -17114,16 +17879,6 @@
 			(type default)
 		)
 		(uuid "f5dfe970-c686-44ee-bda2-f3ac1c94f613")
-	)
-	(wire
-		(pts
-			(xy 373.38 194.31) (xy 379.73 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6344279-85bd-4baf-afd5-b7f000dfddf5")
 	)
 	(wire
 		(pts
@@ -19173,6 +19928,258 @@
 		)
 	)
 	(symbol
+		(lib_id "Battguard:ECA1CM220I")
+		(at 379.73 196.85 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "104f6eff-555a-4dc9-829d-e8653b333783")
+		(property "Reference" "C45"
+			(at 383.54 196.2765 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ECA1CM220I"
+			(at 383.54 198.8165 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ECA1CM220I:CAPPRD250W50D500H1100"
+			(at 379.73 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 379.73 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "M-A"
+			(at 379.73 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "PANASONIC"
+			(at 379.73 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "b_max" "0.55"
+			(at 379.73 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "b_nom" "0.5"
+			(at 379.73 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "20-DEC-19"
+			(at 379.73 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "A_max" "11"
+			(at 379.73 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "D_nom" "5"
+			(at 379.73 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "e_nom" "2.5"
+			(at 379.73 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "P"
+			(uuid "970bdc70-e4c0-4429-9393-f1f8a7bd6fd5")
+		)
+		(pin "N"
+			(uuid "fa33a095-cc92-4f90-a187-fa0e1cde9168")
+		)
+		(instances
+			(project "BattGuard"
+				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
+					(reference "C45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battguard:UPJ1K560MPD6")
+		(at 163.83 22.86 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10cf1eeb-a8cc-4ee2-bc54-b83e3e72a123")
+		(property "Reference" "C6"
+			(at 167.64 24.6252 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "UPJ1K560MPD6"
+			(at 167.64 27.1652 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CAP_UPJ_10X15_NCH"
+			(at 163.83 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "UPJ1K560MPD6"
+			(at 163.83 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2ba37712-f59d-4eda-9c73-b6383542352e")
+		)
+		(pin "1"
+			(uuid "97fec1f7-ad72-4237-a3f9-b744321ab105")
+		)
+		(instances
+			(project "BattGuard"
+				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 392.43 170.18 180)
 		(unit 1)
@@ -19934,6 +20941,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Battguard:UPJ1K560MPD6")
+		(at 307.34 46.99 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1895333e-3b9c-4262-84bd-79bdbdfa69b7")
+		(property "Reference" "C35"
+			(at 311.15 48.7552 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "UPJ1K560MPD6"
+			(at 311.15 51.2952 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CAP_UPJ_10X15_NCH"
+			(at 307.34 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "UPJ1K560MPD6"
+			(at 307.34 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 307.34 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4478ca08-7a7f-40f2-bbfd-eb5fcc39d43b")
+		)
+		(pin "1"
+			(uuid "f1af4f6d-3fdb-4f82-96c7-508a83ab6192")
+		)
+		(instances
+			(project "BattGuard"
+				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 246.38 217.17 0)
 		(unit 1)
@@ -20173,6 +21264,222 @@
 			(project "BattGuard"
 				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
 					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battguard:B41858C7227M000")
+		(at 21.59 140.97 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d2a5902-0b2b-4ca5-9449-3fed8a55acd2")
+		(property "Reference" "C40"
+			(at 25.4 138.4299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B41858C7227M000"
+			(at 25.4 140.9699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B41858C7227M000:CAPPRD500W60D1000H1350"
+			(at 21.59 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "220 µF 35 V Aluminum Electrolytic Capacitors Radial, Can 129mOhm @ 10kHz 5000 Hrs @ 105°C"
+			(at 21.59 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "TDK"
+			(at 21.59 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "13.5 mm"
+			(at 21.59 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 21.59 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 21.59 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/B41858C7227M000/TDK/view-part/?ref=eda"
+			(at 21.59 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 21.59 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "2018-10"
+			(at 21.59 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/B41858C7227M000/TDK/view-part/?ref=snap"
+			(at 21.59 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "B41858C7227M000"
+			(at 21.59 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 21.59 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "TDK"
+			(at 21.59 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "69471bf8-dd1b-4b95-bd44-9b74f3656431")
+		)
+		(pin "2"
+			(uuid "c99e17e5-1618-4176-ab52-99b3433d5c9c")
+		)
+		(instances
+			(project "BattGuard"
+				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -20492,88 +21799,6 @@
 			(project "BattGuard"
 				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
 					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 163.83 26.67 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "20d1b529-0b11-46a1-b3a1-44d918af423e")
-		(property "Reference" "C6"
-			(at 167.64 25.6539 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "56uF, 80V"
-			(at 167.64 28.1939 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P2.50mm"
-			(at 163.83 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor, US symbol"
-			(at 163.83 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6c81db5f-ea7d-48a7-8ab9-f0086ff73bae")
-		)
-		(pin "2"
-			(uuid "d62de4bf-9187-4c02-8c92-be91fe5e73ad")
-		)
-		(instances
-			(project "BattGuard"
-				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
-					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -20970,6 +22195,90 @@
 			(project "BattGuard"
 				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
 					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battguard:UPJ1K560MPD6")
+		(at 276.86 29.21 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29de46c9-cdba-4fc4-be63-36101a22bb6d")
+		(property "Reference" "C28"
+			(at 280.67 30.9752 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "UPJ1K560MPD6"
+			(at 280.67 33.5152 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CAP_UPJ_10X15_NCH"
+			(at 276.86 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "UPJ1K560MPD6"
+			(at 276.86 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 276.86 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b05963a4-82a8-4169-8894-c98d49ed01c7")
+		)
+		(pin "1"
+			(uuid "bc9df73a-2da4-4cad-b00b-17ab2139bc5d")
+		)
+		(instances
+			(project "BattGuard"
+				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -22142,88 +23451,6 @@
 			(project "BattGuard"
 				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
 					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 123.19 26.67 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3625463e-f511-42bd-9f4e-86e187b0d6db")
-		(property "Reference" "C5"
-			(at 127 24.7649 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "56uF 80v"
-			(at 127 27.3049 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P2.50mm"
-			(at 123.19 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor, US symbol"
-			(at 123.19 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f9cf4f6e-4606-48bb-9a3f-5d307d5cf6cd")
-		)
-		(pin "2"
-			(uuid "c821f75d-0e0f-49ec-9537-950008d5c0d3")
-		)
-		(instances
-			(project "BattGuard"
-				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
-					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -27479,170 +28706,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 21.59 139.7 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6ca8e889-3f2d-467d-96c1-06973be092be")
-		(property "Reference" "C40"
-			(at 25.4 138.6839 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220uF 35v"
-			(at 25.4 141.2239 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P2.50mm"
-			(at 21.59 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 21.59 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor, US symbol"
-			(at 21.59 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2292a8b2-a39a-4a5f-9947-9f3e6cb6d587")
-		)
-		(pin "2"
-			(uuid "02522f19-949a-4a8c-9fca-4c2414b91dcf")
-		)
-		(instances
-			(project "BattGuard"
-				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
-					(reference "C40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 308.61 50.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6dcf3ec7-08e4-4aa5-bf12-320992750312")
-		(property "Reference" "C35"
-			(at 312.42 49.7839 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "56uF 80V"
-			(at 312.42 52.3239 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P2.50mm"
-			(at 308.61 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 308.61 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor, US symbol"
-			(at 308.61 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e55f2f2b-bdea-4003-8ace-697b79602fe0")
-		)
-		(pin "2"
-			(uuid "d2d002a1-bedc-4d2c-b195-6b53395b35f6")
-		)
-		(instances
-			(project "BattGuard"
-				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
-					(reference "C35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
 		(at 386.08 99.06 0)
 		(unit 1)
@@ -28670,88 +29733,6 @@
 			(project "BattGuard"
 				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
 					(reference "R33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 113.03 26.67 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7d00ba6c-9cb3-4b95-9c13-6b93e290b938")
-		(property "Reference" "C4"
-			(at 116.84 24.7649 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "56uF 80v"
-			(at 116.84 27.3049 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P2.50mm"
-			(at 113.03 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor, US symbol"
-			(at 113.03 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7c7054b6-728a-4201-96a4-9b0245a34c51")
-		)
-		(pin "2"
-			(uuid "beb552e4-4655-4e18-ae9d-648c927ce63c")
-		)
-		(instances
-			(project "BattGuard"
-				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
-					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -31619,6 +32600,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Battguard:UPJ1K560MPD6")
+		(at 290.83 46.99 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9fa7efd4-9d68-49a0-a378-c84ddad4a193")
+		(property "Reference" "C34"
+			(at 292.862 52.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "UPJ1K560MPD6"
+			(at 285.75 55.88 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CAP_UPJ_10X15_NCH"
+			(at 290.83 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "UPJ1K560MPD6"
+			(at 290.83 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 290.83 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "96ccf4b0-7e4f-4291-8719-22cc99c230f1")
+		)
+		(pin "1"
+			(uuid "42859e9f-ce6c-4174-bbd5-39c5f44e1342")
+		)
+		(instances
+			(project "BattGuard"
+				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BattGuard:OQ0271510000G")
 		(at 40.64 25.4 180)
 		(unit 1)
@@ -32463,88 +33527,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 290.83 50.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "add73959-6e31-4cfc-a54a-718b2655967c")
-		(property "Reference" "C34"
-			(at 294.64 49.7839 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "56uF 80V"
-			(at 294.64 52.3239 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P2.50mm"
-			(at 290.83 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 290.83 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor, US symbol"
-			(at 290.83 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cd333a2e-bd51-4bef-99ef-180a9b561c62")
-		)
-		(pin "2"
-			(uuid "73e0a56d-b7d2-49df-b319-da4db95733f7")
-		)
-		(instances
-			(project "BattGuard"
-				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
-					(reference "C34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 374.65 144.78 90)
 		(unit 1)
@@ -32632,6 +33614,89 @@
 			(project "BattGuard"
 				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
 					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battguard:UPJ1K560MPD6")
+		(at 113.03 22.86 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b1d98766-39a6-491a-bdbb-e22d180d722f")
+		(property "Reference" "C4"
+			(at 110.744 18.034 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "UPJ1K560MPD6"
+			(at 104.902 20.828 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CAP_UPJ_10X15_NCH"
+			(at 113.03 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "UPJ1K560MPD6"
+			(at 113.03 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b3f1dbfc-5387-45e8-a35b-8c844a11e335")
+		)
+		(pin "1"
+			(uuid "88a63de2-107f-4a42-9e92-358bfa0d0a17")
+		)
+		(instances
+			(project "BattGuard"
+				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -32874,87 +33939,6 @@
 			(project "BattGuard"
 				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
 					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 373.38 198.12 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b9196823-54b0-44c1-8ce0-aa1285e7e0ca")
-		(property "Reference" "C44"
-			(at 365.252 198.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF 16V"
-			(at 361.442 200.914 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P2.50mm"
-			(at 373.38 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 373.38 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor, US symbol"
-			(at 373.38 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "574e2f72-d7ca-437a-8c97-7ec9c61802b4")
-		)
-		(pin "2"
-			(uuid "03f483d9-b259-4391-a55f-443af3d5c019")
-		)
-		(instances
-			(project "BattGuard"
-				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
-					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -33388,6 +34372,173 @@
 			(project "BattGuard"
 				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
 					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battguard:ECA1CM220I")
+		(at 373.38 196.85 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bd373df6-07bd-48e7-bdc4-01826f143a0e")
+		(property "Reference" "C44"
+			(at 364.49 197.866 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ECA1CM220I"
+			(at 359.664 201.676 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ECA1CM220I:CAPPRD250W50D500H1100"
+			(at 373.38 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 373.38 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "M-A"
+			(at 373.38 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "PANASONIC"
+			(at 373.38 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "b_max" "0.55"
+			(at 373.38 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "b_nom" "0.5"
+			(at 373.38 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "20-DEC-19"
+			(at 373.38 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "A_max" "11"
+			(at 373.38 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "D_nom" "5"
+			(at 373.38 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "e_nom" "2.5"
+			(at 373.38 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "P"
+			(uuid "1df5c755-ce59-4905-8699-3ec09d3716be")
+		)
+		(pin "N"
+			(uuid "c5885b99-4de3-4c20-9750-fa6dd90752f4")
+		)
+		(instances
+			(project "BattGuard"
+				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -38825,88 +39976,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 379.73 198.12 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f474488b-5006-4b87-8941-370c1bdaef3b")
-		(property "Reference" "C45"
-			(at 383.54 197.1039 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF 16V"
-			(at 383.54 199.6439 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P2.50mm"
-			(at 379.73 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 379.73 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor, US symbol"
-			(at 379.73 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d58ef4f2-026e-4ff0-b631-d35e4249e8b6")
-		)
-		(pin "2"
-			(uuid "c6fb2b18-7e80-4826-85d0-17714edef598")
-		)
-		(instances
-			(project "BattGuard"
-				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
-					(reference "C45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 156.21 204.47 90)
 		(unit 1)
@@ -38981,88 +40050,6 @@
 			(project "BattGuard"
 				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
 					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 276.86 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f5874d62-f4f9-46af-9a57-1089c0c06117")
-		(property "Reference" "C28"
-			(at 280.67 32.0039 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "56uF, 80V"
-			(at 280.67 34.5439 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P2.50mm"
-			(at 276.86 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 276.86 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor, US symbol"
-			(at 276.86 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "67ebf163-3b3d-4d3d-a3cc-073caef3a7ee")
-		)
-		(pin "2"
-			(uuid "f42be3a5-fb1d-4d4e-97b6-83cd89beb7f5")
-		)
-		(instances
-			(project "BattGuard"
-				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
-					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -40031,6 +41018,89 @@
 			(project "BattGuard"
 				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
 					(reference "C47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battguard:UPJ1K560MPD6")
+		(at 123.19 22.86 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fcde3c41-a8c6-4fd7-a872-5fc645d5c238")
+		(property "Reference" "C5"
+			(at 128.016 17.526 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "UPJ1K560MPD6"
+			(at 124.714 19.812 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CAP_UPJ_10X15_NCH"
+			(at 123.19 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "UPJ1K560MPD6"
+			(at 123.19 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 123.19 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1c22eef0-d6d3-4eea-b205-01b037edb26c")
+		)
+		(pin "1"
+			(uuid "ffc124dd-22cb-4cd3-958e-56676d1154a0")
+		)
+		(instances
+			(project "BattGuard"
+				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
+					(reference "C5")
 					(unit 1)
 				)
 			)
