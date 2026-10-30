@@ -12680,6 +12680,10 @@
 		(uuid "ffa8e218-771f-4447-894c-8ffe6263490a")
 	)
 	(no_connect
+		(at 322.58 118.11)
+		(uuid "0218e4e8-ad66-4e40-900f-57558c510990")
+	)
+	(no_connect
 		(at 161.29 105.41)
 		(uuid "35cb12fc-dbcc-4e10-bd6a-5d4c450199bf")
 	)
@@ -15732,17 +15736,7 @@
 			(type default)
 		)
 		(uuid "a41da546-9ea0-4161-ba86-35f187199503")
-	)
-	(wire
-		(pts
-			(xy 401.32 204.47) (xy 401.32 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6058490-8429-4b7d-a1f9-73367b5fd368")
-	)
+	)
 	(wire
 		(pts
 			(xy 335.28 36.83) (xy 335.28 39.37)
@@ -16805,16 +16799,6 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 118.11) (xy 322.58 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de7e9240-671b-4ec8-a419-e4e124590df0")
-	)
-	(wire
-		(pts
 			(xy 88.9 22.86) (xy 102.87 22.86)
 		)
 		(stroke
@@ -17202,17 +17186,7 @@
 			(type default)
 		)
 		(uuid "f748b00d-a16b-4120-bcce-af212f7fd845")
-	)
-	(wire
-		(pts
-			(xy 401.32 194.31) (xy 397.51 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f791db8c-0ada-444c-b98c-9e8a3615dea6")
-	)
+	)
 	(wire
 		(pts
 			(xy 68.58 240.03) (xy 68.58 236.22)
@@ -18202,16 +18176,6 @@
 			(justify left bottom)
 		)
 		(uuid "fb36544f-30be-455e-ae13-dd3585af759b")
-	)
-	(label "3v3"
-		(at 330.2 130.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fbba0241-5848-4a16-bd31-7335c74e1e5f")
 	)
 	(label "LODRV2"
 		(at 254 101.6 0)
@@ -20740,6 +20704,84 @@
 			(project "BattGuard"
 				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 330.2 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "234835cd-8c29-4373-b572-57afe08129ee")
+		(property "Reference" "#PWR090"
+			(at 330.2 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 330.2 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 330.2 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 330.2 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 330.2 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d73db11e-922c-47a4-8aad-a34c23c44002")
+		)
+		(instances
+			(project "BattGuard"
+				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -25926,7 +25968,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O1.27mm_Z4.9mm"
+		(property "Footprint" "TeamLib:Wire_Pads_1x02_SMD_2.54"
 			(at 356.87 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -27489,83 +27531,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 300.99 118.11 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6c36a2dd-76f6-4c4b-97a2-879c344d98b6")
-		(property "Reference" "#PWR060"
-			(at 300.99 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 298.196 121.666 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 300.99 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 300.99 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 300.99 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "211145e0-a4a7-4d5c-9c39-6790bb460569")
-		)
-		(instances
-			(project "BattGuard"
-				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
-					(reference "#PWR060")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized_US")
 		(at 21.59 139.7 0)
 		(unit 1)
@@ -28878,7 +28843,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O1.27mm_Z4.9mm"
+		(property "Footprint" "TeamLib:Wire_Pads_1x02_SMD_2.54"
 			(at 382.27 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -29287,7 +29252,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TeamLib:Wire_Pads_1x02_SMD_2.54"
 			(at 397.51 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -32665,7 +32630,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O1.27mm_Z4.9mm"
+		(property "Footprint" "TeamLib:Wire_Pads_1x02_SMD_2.54"
 			(at 374.65 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -33910,7 +33875,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O1.27mm_Z4.9mm"
+		(property "Footprint" "TeamLib:Wire_Pads_1x02_SMD_2.54"
 			(at 347.98 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -34442,7 +34407,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O1.27mm_Z4.9mm"
+		(property "Footprint" "TeamLib:Wire_Pads_1x02_SMD_2.54"
 			(at 367.03 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -34640,7 +34605,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "TeamLib:Wire_Pads_1x02_SMD_2.54"
 			(at 360.68 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -37470,7 +37435,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TeamLib:Wire_Pads_1x02_SMD_2.54"
 			(at 374.65 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -38109,6 +38074,84 @@
 			(project "BattGuard"
 				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
 					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 314.96 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ece31d92-7db4-44d6-8267-656f8ffac38a")
+		(property "Reference" "#PWR089"
+			(at 314.96 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 314.96 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 314.96 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 314.96 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 314.96 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "70221cee-9de5-44e7-8d45-91d7e5b62f2c")
+		)
+		(instances
+			(project "BattGuard"
+				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -39076,84 +39119,7 @@
 				)
 			)
 		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 396.24 204.47 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f5935445-a0f6-4d8f-8ecf-f8acf038f861")
-		(property "Reference" "J14"
-			(at 396.875 199.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 396.875 201.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 396.24 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 396.24 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 396.24 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "40696d5d-d4fa-484b-ab77-15314bb31f1f")
-		)
-		(instances
-			(project "BattGuard"
-				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
-					(reference "J14")
-					(unit 1)
-				)
-			)
-		)
-	)
+	)
 	(symbol
 		(lib_id "Device:C")
 		(at 176.53 26.67 0)
