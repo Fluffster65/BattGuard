@@ -1,0 +1,19 @@
+(version 1)
+ 
+ 
+# BQ25756 sense/bias area: VCC (max 40 V, solder-masked) is in the INPUT class at 0.6 mm,
+# but its small bias/sense taps here (C1, R3, R5, U1 VAC pins) need 0.3 mm.
+# IPC-2221B B4 (coated, 31-50 V) allows 0.13 mm, so 0.3 mm keeps good margin.
+(rule "BQ sense area clearance"
+  (condition "A.intersectsArea('BQ_sense') && B.intersectsArea('BQ_sense')")
+  (constraint clearance (min 0.3mm)))
+ 
+# BQ25756 fan-out: U1 has 0.5 mm pitch pins, so traces and vias right at the IC
+# need 0.15 mm (6 mil) clearance. Applies only inside the "U1_fanout" rule area.
+(rule "U1 fan-out clearance"
+  (condition "A.intersectsArea('U1_fanout') || B.intersectsArea('U1_fanout')")
+  (constraint clearance (min 0.15mm)))
+   # U3/U4 fine-pitch fan-out (TSSOP 0.5/0.65 mm pitch)
+   (rule "U3 U4 fan-out clearance"
+     (condition "A.intersectsCourtyard('U4') || B.intersectsCourtyard('U4') || A.intersectsCourtyard('U3') || B.intersectsCourtyard('U3')")
+     (constraint clearance (min 0.15mm)))

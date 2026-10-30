@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.3,
-          "width": 1.45
+          "drill": 0.8,
+          "height": 1.27,
+          "width": 1.27
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -151,7 +151,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.2,
+        "min_clearance": 0.31,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -175,7 +175,7 @@
           "td_onpthpad": true,
           "td_onroundshapesonly": false,
           "td_onsmdpad": true,
-          "td_ontrackend": false,
+          "td_ontrackend": true,
           "td_onvia": true
         }
       ],
@@ -547,6 +547,7 @@
         "bus_width": 12,
         "clearance": 0.6,
         "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.25,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -565,6 +566,7 @@
         "bus_width": 12,
         "clearance": 0.31,
         "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.25,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -583,6 +585,7 @@
         "bus_width": 12,
         "clearance": 0.31,
         "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.25,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -601,6 +604,7 @@
         "bus_width": 12,
         "clearance": 0.31,
         "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.25,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -619,6 +623,7 @@
         "bus_width": 12,
         "clearance": 0.31,
         "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.25,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -1019,12 +1024,12 @@
           "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "th",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "${EXCLUDE_FROM_BOM}"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -1067,7 +1072,7 @@
         "uuid": "236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
       }
     ],
-    "used_designators": "J3-17,R13-49,TH1,D5-11,#PWR22-71,#PWR79,C41-57,C60,Q5-9,U2-7,L2-5,F1,SW1-2,TH1(103AT\\-2)1",
+    "used_designators": "#PWR60,#PWR75",
     "variants": []
   },
   "sheets": [
