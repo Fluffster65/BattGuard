@@ -20105,7 +20105,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "10cf1eeb-a8cc-4ee2-bc54-b83e3e72a123")
 		(property "Reference" "C6"
 			(at 167.64 24.6252 90)
@@ -20119,7 +20118,7 @@
 			)
 		)
 		(property "Value" "UPJ1K560MPD6"
-			(at 167.64 27.1652 90)
+			(at 156.972 17.78 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33736,7 +33735,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 88.9 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -40541,10 +40540,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fa8816cd-67dc-4f94-9db9-563149053e82")
 		(property "Reference" "C16"
-			(at 158.75 33.02 90)
+			(at 158.75 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41116,10 +41114,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fe73f62e-6a79-4a97-b52e-c2c929eba414")
 		(property "Reference" "C17"
-			(at 134.62 33.02 90)
+			(at 134.62 44.196 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
