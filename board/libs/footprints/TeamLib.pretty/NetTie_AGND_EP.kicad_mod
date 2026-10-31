@@ -1,0 +1,85 @@
+(footprint "NetTie_AGND_EP"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(uuid "ea79c7be-4ae8-4fb0-aba0-a0bcadc6d4e6")
+	(at 0 0)
+	(descr "Net tie: joins a QFN analog-ground pin to the exposed pad (AGND-PGND star point at the EP, per TI BQ25756 layout checklist). Pad 1 overlaps the pin end, pad 2 overlaps the EP edge.")
+	(tags "net tie AGND PGND exposed pad")
+	(property "Reference" "REF**"
+		(at 0 -0.9 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6cd7ba7f-3df1-4085-8993-9d88d4d8df9a")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(property "Value" "NetTie_AGND_EP"
+		(at 0 0.9 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a3a186f6-7887-4b3c-a37c-d2663b26af75")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9ab0bb39-8e89-4138-9e33-3c46ee68f36a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "AGND to PGND net tie at QFN exposed pad"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4adb5917-b5f2-46b7-94ba-6044cf1028ba")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(net_tie_pad_groups "1, 2")
+	(attr smd exclude_from_pos_files exclude_from_bom)
+	(fp_poly
+		(pts
+			(xy -0.125 -0.25) (xy 0.125 -0.25) (xy 0.125 0.25) (xy -0.125 0.25)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(uuid "8dac5eb1-41f3-40d3-8cd4-0a78c2ac2143")
+	)
+	(pad "1" smd rect
+		(at 0 0.2)
+		(size 0.25 0.2)
+		(layers "F.Cu")
+		(uuid "cbdfe5f5-c6d5-4bd6-bed2-9c3d94f96551")
+	)
+	(pad "2" smd rect
+		(at 0 -0.2)
+		(size 0.25 0.2)
+		(layers "F.Cu")
+		(uuid "05a3bcd2-3d5b-44b2-bc09-75736ad1cdb4")
+	)
+	(embedded_fonts no)
+)

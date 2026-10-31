@@ -23263,7 +23263,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "SHUNT RESISTOR"
 			(at 39.37 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -23274,7 +23274,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "Resistor, US symbol SHUNT RESISTOR"
 			(at 39.37 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -26828,7 +26828,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "SHUNT RESISTOR"
 			(at 147.32 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -26839,7 +26839,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "Resistor, US symbol, SHUNT RESISTOR"
 			(at 147.32 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -40018,7 +40018,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "SHUNT RESISTOR"
 			(at 156.21 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -40029,7 +40029,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "Resistor, US symbol, SHUNT RESISTOR"
 			(at 156.21 204.47 0)
 			(hide yes)
 			(show_name no)
