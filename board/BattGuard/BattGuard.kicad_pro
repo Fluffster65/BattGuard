@@ -1076,7 +1076,7 @@
         "uuid": "236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
       }
     ],
-    "used_designators": "#PWR60,#PWR75",
+    "used_designators": "#PWR60,#PWR75,#PWR77,#PWR91-105,C55,C60-61,R20,R51-56",
     "variants": []
   },
   "sheets": [
