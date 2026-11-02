@@ -14106,6 +14106,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 204.47) (xy 148.59 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2249a4fa-5e90-4109-af1a-ef11c9d16b29")
+	)
+	(wire
+		(pts
 			(xy 224.79 72.39) (xy 223.52 72.39)
 		)
 		(stroke
@@ -14243,16 +14253,6 @@
 			(type default)
 		)
 		(uuid "27300118-6a42-4846-8e2f-230c9b4d19bd")
-	)
-	(wire
-		(pts
-			(xy 148.59 204.47) (xy 152.4 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2962acff-65c0-4641-9ca2-003314293839")
 	)
 	(wire
 		(pts
@@ -17973,6 +17973,16 @@
 			(type default)
 		)
 		(uuid "fad7cc32-b93f-42f4-a7d0-2c05c39365d8")
+	)
+	(wire
+		(pts
+			(xy 158.75 204.47) (xy 160.02 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fba550f4-1915-4e1c-bdc2-8b82159e1feb")
 	)
 	(wire
 		(pts
@@ -40964,7 +40974,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 156.21 204.47 90)
+		(at 154.94 204.47 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -40975,7 +40985,7 @@
 		(fields_autoplaced yes)
 		(uuid "f47e0978-3f5c-44df-8647-04a0e6929941")
 		(property "Reference" "R22"
-			(at 156.21 198.12 90)
+			(at 154.94 198.12 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40985,7 +40995,7 @@
 			)
 		)
 		(property "Value" "0.02"
-			(at 156.21 200.66 90)
+			(at 154.94 200.66 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40995,7 +41005,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 156.464 203.454 90)
+			(at 155.194 203.454 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41006,7 +41016,7 @@
 			)
 		)
 		(property "Datasheet" "SHUNT RESISTOR"
-			(at 156.21 204.47 0)
+			(at 154.94 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41017,7 +41027,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol, SHUNT RESISTOR"
-			(at 156.21 204.47 0)
+			(at 154.94 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
