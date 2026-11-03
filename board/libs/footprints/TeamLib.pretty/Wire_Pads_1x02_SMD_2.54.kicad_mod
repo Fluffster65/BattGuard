@@ -3,14 +3,12 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(uuid "783fcc12-b7ff-4e8b-80f2-d674b47147d5")
-	(at 0 0)
 	(descr "2-pin SMD solder pads for off-board wires (enclosure LED/button), 1.5x2.5 mm, 2.54 mm pitch")
 	(tags "wire solder pad")
 	(property "Reference" "REF**"
 		(at 0 -2.4 0)
 		(layer "F.SilkS")
-		(uuid "598c18b1-2471-495e-a70a-8f5e8120bf23")
+		(uuid "314544b4-6ec0-4a90-a335-2a7932251e8e")
 		(effects
 			(font
 				(size 1 1)
@@ -21,7 +19,7 @@
 	(property "Value" "Wire_Pads_1x02_SMD_2.54"
 		(at 0 2.4 0)
 		(layer "F.Fab")
-		(uuid "080d1326-2776-41de-a83b-d3d01049a541")
+		(uuid "0d5c74b8-bde8-4018-aa95-844c728e778f")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "27791d7b-4cb3-4ba0-a7de-b62da560277e")
+		(uuid "c831a692-2fd8-4e02-9388-bbcc25f16911")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a9e91803-7d60-49b5-93c1-db5b05a99b8d")
+		(uuid "b7a9cb4d-ef15-4c70-82b7-c7441938c8f0")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54,6 +52,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.2 -1.5)
 		(end 2.2 -1.5)
@@ -62,27 +61,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "2d632547-ffee-47fd-9931-7f72422e675c")
-	)
-	(fp_line
-		(start 2.2 -1.5)
-		(end 2.2 1.5)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "04b6303f-3abc-43f1-9807-5ab49299b250")
-	)
-	(fp_line
-		(start 2.2 1.5)
-		(end -2.2 1.5)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "7d688863-4d3d-49d2-a9f1-3b28c578e53a")
+		(uuid "626272b2-817a-4048-9701-ff16d55bd38e")
 	)
 	(fp_line
 		(start -2.2 1.5)
@@ -92,7 +71,38 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "6cb9f02b-cf7a-4807-9eeb-d33325aa2e23")
+		(uuid "e50d45a7-0e63-4b20-9521-81900c6421d4")
+	)
+	(fp_line
+		(start 2.2 -1.5)
+		(end 2.2 1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "43b8c091-a3b1-4284-a473-bcfc5d918e8d")
+	)
+	(fp_line
+		(start 2.2 1.5)
+		(end -2.2 1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0ab3d22f-ce81-44a4-b59a-15c1e3c43499")
+	)
+	(fp_circle
+		(center -2 2)
+		(end -1.85 2)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "b75c5de1-47f7-4669-8f1d-67c64a19b69c")
 	)
 	(fp_line
 		(start -2.45 -1.75)
@@ -102,27 +112,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "50787d53-e668-4d0e-864c-6960d2f41880")
-	)
-	(fp_line
-		(start 2.45 -1.75)
-		(end 2.45 1.75)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "1814008c-4f34-4f03-8023-af44e0d9f06f")
-	)
-	(fp_line
-		(start 2.45 1.75)
-		(end -2.45 1.75)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "3e20b6af-5968-445c-b178-c62274813ab0")
+		(uuid "2325917f-5fd4-4f04-bf50-02a9399cce4c")
 	)
 	(fp_line
 		(start -2.45 1.75)
@@ -132,34 +122,39 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "a773101a-b2b9-4ba4-a26c-fa51eafca033")
+		(uuid "cf775094-f04d-4dd4-896d-bac16f79a593")
 	)
-	(fp_circle
-		(center -2.6 1.5)
-		(end -2.45 1.5)
+	(fp_line
+		(start 2.45 -1.75)
+		(end 2.45 1.75)
 		(stroke
-			(width 0.3)
+			(width 0.05)
 			(type solid)
 		)
-		(fill yes)
-		(layer "F.SilkS")
-		(uuid "3e6f7580-eaa7-4762-bf26-3fb6bf26a563")
+		(layer "F.CrtYd")
+		(uuid "17a7b128-bc6d-48e6-ae39-96531bad12a0")
+	)
+	(fp_line
+		(start 2.45 1.75)
+		(end -2.45 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4a07830f-6e3b-447d-9cc3-0f20bbd9d288")
 	)
 	(pad "1" smd rect
 		(at -1.27 0)
 		(size 1.5 2.5)
 		(layers "F.Cu" "F.Mask")
-		(pinfunction "Pin_1")
-		(pintype "passive")
-		(uuid "bca52072-c47f-42c5-aa45-8cd2fd47bccf")
+		(uuid "3008e424-2690-43cc-8558-0c2a783c6b16")
 	)
 	(pad "2" smd rect
 		(at 1.27 0)
 		(size 1.5 2.5)
 		(layers "F.Cu" "F.Mask")
-		(pinfunction "Pin_2")
-		(pintype "passive")
-		(uuid "21c9756e-912a-4759-9318-1c17a9be39ba")
+		(uuid "222f5b4e-eedf-4f37-96ba-5a19868d18cf")
 	)
 	(embedded_fonts no)
 )
