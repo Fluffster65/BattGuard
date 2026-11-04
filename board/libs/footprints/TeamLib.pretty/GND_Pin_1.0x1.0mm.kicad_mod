@@ -1,0 +1,164 @@
+(footprint "GND_Pin_1.0x1.0mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SMD rectangular pad as test Point, square 1.0mm side length")
+	(tags "test point SMD pad rectangle square")
+	(property "Reference" "GND"
+		(at 0 -1.448 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "bf6fc67c-79f8-4f35-85ae-e0e0cb0b74ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Conn_01x01_Pin"
+		(at 0 1.55 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c1b9a6ea-3061-4376-b06e-543f5a3ae7ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "28ebdd80-8e1f-452d-a5cb-256cace1d341")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Generic connector, single row, 01x01, script generated"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bbd83a2d-717a-42f7-9eee-99427266ea1d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "Connector*:*_1x??_*")
+	(sheetname "/")
+	(sheetfile "BattGuard.kicad_sch")
+	(attr through_hole board_only exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.73 -0.6975)
+		(end 0.645 -0.6975)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "78c74548-97d0-4b16-9535-a1273d46ae4f")
+	)
+	(fp_line
+		(start -0.73 0.7025)
+		(end -0.73 -0.6975)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "99eba4ea-926a-45ec-85f6-1864244b7929")
+	)
+	(fp_line
+		(start 0.67 -0.6975)
+		(end 0.67 0.7025)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c956e416-d466-4805-a0f0-6ae28f184906")
+	)
+	(fp_line
+		(start 0.67 0.7025)
+		(end -0.73 0.7025)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d8c035db-4a48-49c8-bfdc-96f150462647")
+	)
+	(fp_line
+		(start -0.73 -0.71)
+		(end -0.73 0.7025)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ed64aa16-6e2b-4819-8450-6361e91b4f80")
+	)
+	(fp_line
+		(start -0.73 -0.71)
+		(end 0.67 -0.71)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6c95c0df-1fc8-4154-ad47-c05593a236c7")
+	)
+	(fp_line
+		(start 0.67 0.7025)
+		(end -0.73 0.7025)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1f5b7851-7312-4e8e-b797-937e74d46111")
+	)
+	(fp_line
+		(start 0.67 0.7025)
+		(end 0.67 -0.71)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2913e22b-11a8-4e41-a57c-af949f9cccec")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -1.45 0)
+		(layer "F.Fab")
+		(uuid "36cf2790-31bf-4d15-95b6-c4ef2758710e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -0.025 0)
+		(size 1.2 1.2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "46eac210-75c2-4c41-9fd3-e45906b541ed")
+	)
+	(embedded_fonts no)
+)
