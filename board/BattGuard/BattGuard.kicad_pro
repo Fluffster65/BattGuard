@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.12,
-          "height": 3.4,
-          "width": 2.52
+          "drill": 0.0,
+          "height": 1.4,
+          "width": 1.025
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -82,30 +82,6 @@
         }
       ],
       "drc_exclusions": [
-        [
-          "extra_footprint|104840400|125187000|e52fe518-fc2d-495b-becd-f493a23c8ec2|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "extra_footprint|112500000|67500000|04051171-f906-425b-a3e6-d4d7a70aa226|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "extra_footprint|202500000|68000000|3fb78a53-eb5b-4def-966a-1dc72334015d|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "extra_footprint|208500000|68000000|7c9ddbff-3411-42fd-a972-c6d6c2387310|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "extra_footprint|255010700|55045800|8fb2c536-be65-4603-82ea-c2b4fcb11e76|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "extra_footprint|255258700|125227000|35de410a-2d25-4a12-ad9f-9f5f82333d19|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
         [
           "silk_edge_clearance|100000000|54067500|e9930f3b-2e73-4a61-b3c1-605a3641cc30|e0a52088-7c71-4e16-89cd-2da2df6903fd",
           "Connector Extends off-board"
@@ -166,7 +142,7 @@
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
-        "extra_footprint": "warning",
+        "extra_footprint": "ignore",
         "footprint": "error",
         "footprint_filters_mismatch": "ignore",
         "footprint_symbol_field_mismatch": "warning",
@@ -822,9 +798,9 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "C:/Users/Fluff/Downloads/",
       "specctra_dsn": "BattGuard.dsn",
-      "step": "BattGuard.step",
+      "step": "../../../../../../Downloads/BattGuard_unfinished.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -1139,7 +1115,7 @@
         "uuid": "236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
       }
     ],
-    "used_designators": "#PWR40,#PWR60,#PWR75",
+    "used_designators": "#PWR40,#PWR60,#PWR75,TP1",
     "variants": []
   },
   "sheets": [

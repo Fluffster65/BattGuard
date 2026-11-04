@@ -6,9 +6,9 @@
 	(descr "2-pin SMD solder pads for off-board wires (enclosure LED/button), 1.5x2.5 mm, 2.54 mm pitch")
 	(tags "wire solder pad")
 	(property "Reference" "REF**"
-		(at 0 -2.4 0)
+		(at 0 -1.9 0)
 		(layer "F.SilkS")
-		(uuid "314544b4-6ec0-4a90-a335-2a7932251e8e")
+		(uuid "0973e528-791a-419d-bd0e-8fa9f57a6367")
 		(effects
 			(font
 				(size 1 1)
@@ -16,10 +16,10 @@
 			)
 		)
 	)
-	(property "Value" "Wire_Pads_1x02_SMD_2.54"
+	(property "Value" "THT_polarized_1x02"
 		(at 0 2.4 0)
 		(layer "F.Fab")
-		(uuid "0d5c74b8-bde8-4018-aa95-844c728e778f")
+		(uuid "a639d3ae-4cf1-4dd6-aca1-4d90a48b2c7c")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c831a692-2fd8-4e02-9388-bbcc25f16911")
+		(uuid "26cdb760-c830-4095-bed9-db9fe227620c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39,11 +39,11 @@
 			)
 		)
 	)
-	(property "Description" "Wire pads: pin 1 marked with dot"
+	(property "Description" "Wire holes: pin 1 marked with +"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b7a9cb4d-ef15-4c70-82b7-c7441938c8f0")
+		(uuid "32d9cb47-9ba6-41b6-be80-54de7a63df43")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51,58 +51,47 @@
 			)
 		)
 	)
-	(attr smd)
+	(attr through_hole)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
-		(start -2.2 -1.5)
-		(end 2.2 -1.5)
+		(start -1.9 -0.9)
+		(end 2.2 -0.9)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "626272b2-817a-4048-9701-ff16d55bd38e")
+		(uuid "86e0b040-ce24-43d2-9666-d5f4e75b7d4a")
 	)
 	(fp_line
-		(start -2.2 1.5)
-		(end -2.2 -1.5)
+		(start -1.9 0.9)
+		(end -1.9 -0.9)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "e50d45a7-0e63-4b20-9521-81900c6421d4")
+		(uuid "cb7248ea-4a46-4253-97ba-6cbbe8023135")
 	)
 	(fp_line
-		(start 2.2 -1.5)
-		(end 2.2 1.5)
+		(start 2.2 -0.9)
+		(end 2.2 0.9)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "43b8c091-a3b1-4284-a473-bcfc5d918e8d")
+		(uuid "c8fe4649-83cb-466b-8e41-cb6ad0f0b752")
 	)
 	(fp_line
-		(start 2.2 1.5)
-		(end -2.2 1.5)
+		(start 2.2 0.9)
+		(end -1.9 0.9)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "0ab3d22f-ce81-44a4-b59a-15c1e3c43499")
-	)
-	(fp_circle
-		(center -2 2)
-		(end -1.85 2)
-		(stroke
-			(width 0.3)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.SilkS")
-		(uuid "b75c5de1-47f7-4669-8f1d-67c64a19b69c")
+		(uuid "13902b6a-4ae0-47b4-b68c-cd510879320c")
 	)
 	(fp_line
 		(start -2.45 -1.75)
@@ -112,7 +101,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "2325917f-5fd4-4f04-bf50-02a9399cce4c")
+		(uuid "7fadb07a-4133-47b7-ad2e-913d05379adb")
 	)
 	(fp_line
 		(start -2.45 1.75)
@@ -122,7 +111,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "cf775094-f04d-4dd4-896d-bac16f79a593")
+		(uuid "f945bc05-e51b-421a-a7f8-36be029490c9")
 	)
 	(fp_line
 		(start 2.45 -1.75)
@@ -132,7 +121,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "17a7b128-bc6d-48e6-ae39-96531bad12a0")
+		(uuid "ec5e0570-ae63-4989-b918-e73aca363326")
 	)
 	(fp_line
 		(start 2.45 1.75)
@@ -142,19 +131,51 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "4a07830f-6e3b-447d-9cc3-0f20bbd9d288")
+		(uuid "507c12e2-f12a-4b90-87b7-95d905c8814d")
 	)
-	(pad "1" smd rect
-		(at -1.27 0)
-		(size 1.5 2.5)
-		(layers "F.Cu" "F.Mask")
-		(uuid "3008e424-2690-43cc-8558-0c2a783c6b16")
+	(fp_text user "+"
+		(at -1.6 1.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c48a9702-3cd0-446c-a060-f75bcf52fd1b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
 	)
-	(pad "2" smd rect
+	(fp_text user "-"
+		(at 0.6 1.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9e26132c-f607-4776-a699-e079863a0068")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -1 0)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "288897ea-e8c4-4301-93cc-591ede2822de")
+	)
+	(pad "2" thru_hole roundrect
 		(at 1.27 0)
-		(size 1.5 2.5)
-		(layers "F.Cu" "F.Mask")
-		(uuid "222f5b4e-eedf-4f37-96ba-5a19868d18cf")
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1666666667)
+		(uuid "d1889d1b-3af1-4aa2-a6c2-5867f4cc4ba4")
 	)
 	(embedded_fonts no)
 )

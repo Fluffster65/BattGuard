@@ -19431,7 +19431,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "TeamLib:TestPoint_Pad_1.0x1.0mm"
 			(at 386.08 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -27321,7 +27321,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TeamLib:Wire_Pads_1x02_SMD_2.54"
+		(property "Footprint" "LED_THT:LED_D1.8mm_W3.3mm_H2.4mm"
 			(at 356.87 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -28991,7 +28991,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "TeamLib:TestPoint_Pad_1.0x1.0mm"
 			(at 386.08 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -30105,7 +30105,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TeamLib:Wire_Pads_1x02_SMD_2.54"
+		(property "Footprint" "LED_THT:LED_D1.8mm_W3.3mm_H2.4mm"
 			(at 382.27 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -34129,7 +34129,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TeamLib:Wire_Pads_1x02_SMD_2.54"
+		(property "Footprint" "LED_THT:LED_D1.8mm_W3.3mm_H2.4mm"
 			(at 374.65 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -35543,7 +35543,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TeamLib:Wire_Pads_1x02_SMD_2.54"
+		(property "Footprint" "LED_THT:LED_D1.8mm_W3.3mm_H2.4mm"
 			(at 347.98 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -36075,7 +36075,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TeamLib:Wire_Pads_1x02_SMD_2.54"
+		(property "Footprint" "LED_THT:LED_D1.8mm_W3.3mm_H2.4mm"
 			(at 367.03 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -36273,7 +36273,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TeamLib:Wire_Pads_1x02_SMD_2.54"
+		(property "Footprint" "LED_THT:LED_D1.8mm_W3.3mm_H2.4mm"
 			(at 360.68 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -37677,7 +37677,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "TeamLib:TestPoint_Pad_1.0x1.0mm"
 			(at 384.81 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -41361,7 +41361,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "TeamLib:TestPoint_Pad_1.0x1.0mm"
 			(at 384.81 74.93 0)
 			(hide yes)
 			(show_name no)
