@@ -13037,6 +13037,12 @@
 		(uuid "9814abe6-4e23-4431-99e1-3ad66703c54f")
 	)
 	(junction
+		(at 396.24 194.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98f4bb07-a956-4fa3-8b6d-1432f705e86c")
+	)
+	(junction
 		(at 49.53 204.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13113,6 +13119,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af0d3ab0-7655-4c08-9341-1c9cd1a51e7f")
+	)
+	(junction
+		(at 389.89 194.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afb13cbb-5f2f-4ff2-b19a-a14c332d3b25")
 	)
 	(junction
 		(at 375.92 95.25)
@@ -13653,6 +13665,16 @@
 			(type default)
 		)
 		(uuid "0a434066-33e2-49ca-a0e8-fa91a4570c33")
+	)
+	(wire
+		(pts
+			(xy 389.89 194.31) (xy 392.43 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b4694f8-1b43-4cc0-93ec-fdd331b66af8")
 	)
 	(wire
 		(pts
@@ -15376,6 +15398,16 @@
 	)
 	(wire
 		(pts
+			(xy 396.24 194.31) (xy 392.43 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63a1edc4-0d13-469f-9c61-aacc806269c9")
+	)
+	(wire
+		(pts
 			(xy 248.92 228.6) (xy 256.54 228.6)
 		)
 		(stroke
@@ -15796,7 +15828,7 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 194.31) (xy 392.43 194.31)
+			(xy 379.73 194.31) (xy 389.89 194.31)
 		)
 		(stroke
 			(width 0)
@@ -17926,7 +17958,7 @@
 	)
 	(wire
 		(pts
-			(xy 397.51 194.31) (xy 392.43 194.31)
+			(xy 397.51 194.31) (xy 396.24 194.31)
 		)
 		(stroke
 			(width 0)
@@ -19960,10 +19992,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "104f6eff-555a-4dc9-829d-e8653b333783")
 		(property "Reference" "C45"
-			(at 383.54 196.2765 90)
+			(at 382.524 196.596 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19974,7 +20005,7 @@
 			)
 		)
 		(property "Value" "ECA1CM220I"
-			(at 383.54 198.8165 90)
+			(at 376.936 202.184 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23556,6 +23587,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 389.89 198.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "36332188-b496-4d4f-a2d9-fdb9c82d018b")
+		(property "Reference" "C62"
+			(at 388.62 195.834 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF 16V X7R"
+			(at 383.794 200.406 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 390.86 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 389.89 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 389.89 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d6503104-1b91-4b0c-a0b1-d06bd5d5cb48")
+		)
+		(pin "2"
+			(uuid "714e9955-0233-4b79-bdd2-a9a4062aab12")
+		)
+		(instances
+			(project "BattGuard"
+				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
+					(reference "C62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Barrel_Jack")
 		(at 64.77 38.1 0)
 		(unit 1)
@@ -23708,6 +23820,87 @@
 			(project "BattGuard"
 				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
 					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 396.24 198.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "397f84b8-4158-4d95-9010-766799847627")
+		(property "Reference" "C63"
+			(at 399.542 196.596 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF 16V X7R"
+			(at 398.272 200.914 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 397.21 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 396.24 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 396.24 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fa7c582b-9dcf-4398-a53f-e651970cdb24")
+		)
+		(pin "2"
+			(uuid "0dc9ab49-2c1d-42ef-afd5-74f1f2200950")
+		)
+		(instances
+			(project "BattGuard"
+				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
+					(reference "C63")
 					(unit 1)
 				)
 			)
@@ -26729,6 +26922,83 @@
 			(project "BattGuard"
 				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
 					(reference "R55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 389.89 201.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5766f637-1984-4aa6-8188-09a42da26257")
+		(property "Reference" "#PWR107"
+			(at 389.89 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 391.668 205.486 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 389.89 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 389.89 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 389.89 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2d51b844-b049-4663-a4b9-e26f1458296c")
+		)
+		(instances
+			(project "BattGuard"
+				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
+					(reference "#PWR107")
 					(unit 1)
 				)
 			)
@@ -29828,6 +30098,83 @@
 			(project "BattGuard"
 				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
 					(reference "#PWR0100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 396.24 201.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7b1aebd3-5f88-4f17-b69a-03ec265d3220")
+		(property "Reference" "#PWR109"
+			(at 396.24 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 398.78 205.486 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 396.24 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 396.24 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 396.24 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c6613547-6f67-4324-aafb-a45b6ff173e0")
+		)
+		(instances
+			(project "BattGuard"
+				(path "/236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
+					(reference "#PWR109")
 					(unit 1)
 				)
 			)
@@ -34969,7 +35316,7 @@
 			)
 		)
 		(property "Value" "ECA1CM220I"
-			(at 359.664 201.676 90)
+			(at 364.49 202.184 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.8,
-          "height": 1.2,
-          "width": 1.2
+          "height": 1.27,
+          "width": 1.27
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -81,52 +81,7 @@
           "width": 0.25
         }
       ],
-      "drc_exclusions": [
-        [
-          "silk_edge_clearance|100000000|54067500|e9930f3b-2e73-4a61-b3c1-605a3641cc30|e0a52088-7c71-4e16-89cd-2da2df6903fd",
-          "Connector Extends off-board"
-        ],
-        [
-          "silk_edge_clearance|100424898|50767499|76dfa319-a250-4748-80b9-0357a18ac7be|ebf706b7-01c6-479d-b3f1-f3b315a1d088",
-          ""
-        ],
-        [
-          "silk_edge_clearance|116590000|50000000|07aee6a5-c7d9-496d-9d75-a8f97d899fbf|f7a218a9-edfb-4e09-b14d-c4d05fadfbea",
-          ""
-        ],
-        [
-          "silk_edge_clearance|126810000|50000000|07aee6a5-c7d9-496d-9d75-a8f97d899fbf|b05b26dc-3959-4dbf-8c41-418ac2448806",
-          ""
-        ],
-        [
-          "silk_edge_clearance|158083250|130000000|b1a58284-0881-4791-b569-92d4e3fe18e0|4907749f-f626-4561-a23f-1d4fd0afaa5d",
-          ""
-        ],
-        [
-          "silk_edge_clearance|158983250|129950000|b1a58284-0881-4791-b569-92d4e3fe18e0|63304cb8-8194-4197-befa-6af5cf99ea52",
-          ""
-        ],
-        [
-          "silk_edge_clearance|172083250|129950000|b1a58284-0881-4791-b569-92d4e3fe18e0|98698a92-0b48-4222-b8e8-ba0716c64320",
-          "Connector Extends Off-board"
-        ],
-        [
-          "silk_edge_clearance|172083250|129950000|b1a58284-0881-4791-b569-92d4e3fe18e0|d1f405ed-e50b-4383-9ae6-442c8c1858af",
-          ""
-        ],
-        [
-          "silk_edge_clearance|172983250|130000000|b1a58284-0881-4791-b569-92d4e3fe18e0|31dceddf-8b84-42ae-be79-04b8cd4febda",
-          "Connector extends off-board"
-        ],
-        [
-          "silk_edge_clearance|174640000|130000000|b1a58284-0881-4791-b569-92d4e3fe18e0|2d035214-5665-4094-9204-af22417bce5b",
-          ""
-        ],
-        [
-          "silk_edge_clearance|190360000|130000000|b1a58284-0881-4791-b569-92d4e3fe18e0|cc99dfc1-be64-4158-adf1-7c226297512f",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -142,17 +97,17 @@
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
-        "extra_footprint": "ignore",
+        "extra_footprint": "warning",
         "footprint": "error",
         "footprint_filters_mismatch": "ignore",
         "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "warning",
+        "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_to_hole": "warning",
         "holes_co_located": "warning",
         "invalid_outline": "error",
-        "isolated_copper": "ignore",
+        "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
@@ -191,27 +146,27 @@
         "tuning_profile_track_geometries": "ignore",
         "unconnected_items": "error",
         "unresolved_variable": "error",
-        "via_dangling": "ignore",
+        "via_dangling": "warning",
         "zones_intersect": "error"
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.127,
-        "min_connection": 0.127,
+        "min_clearance": 0.31,
+        "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.127,
-        "min_hole_to_hole": 0.127,
-        "min_microvia_diameter": 0.4572,
-        "min_microvia_drill": 0.254,
+        "min_hole_clearance": 0.25,
+        "min_hole_to_hole": 0.25,
+        "min_microvia_diameter": 0.2,
+        "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
-        "min_text_thickness": 0.127,
-        "min_through_hole_diameter": 0.254,
-        "min_track_width": 0.127,
-        "min_via_annular_width": 0.1016,
-        "min_via_diameter": 0.4572,
+        "min_text_thickness": 0.08,
+        "min_through_hole_diameter": 0.3,
+        "min_track_width": 0.25,
+        "min_via_annular_width": 0.15,
+        "min_via_diameter": 0.6,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -562,9 +517,7 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": [
-      "TeamLib"
-    ]
+    "pinned_symbol_libs": []
   },
   "meta": {
     "filename": "BattGuard.kicad_pro",
@@ -595,6 +548,7 @@
         "bus_width": 12,
         "clearance": 0.6,
         "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.25,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -613,6 +567,7 @@
         "bus_width": 12,
         "clearance": 0.31,
         "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.25,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -631,6 +586,7 @@
         "bus_width": 12,
         "clearance": 0.31,
         "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.25,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -649,6 +605,7 @@
         "bus_width": 12,
         "clearance": 0.31,
         "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.25,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -667,6 +624,7 @@
         "bus_width": 12,
         "clearance": 0.31,
         "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.25,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -798,9 +756,9 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "C:/Users/Fluff/Downloads/BattGuard_gerbers_v2/",
+      "plot": "",
       "specctra_dsn": "BattGuard.dsn",
-      "step": "../../../../../../Downloads/BattGuard.step",
+      "step": "BattGuard.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -1115,7 +1073,7 @@
         "uuid": "236cbdd7-d83d-4a8e-9ca8-a6b8cdb61d8b"
       }
     ],
-    "used_designators": "#PWR40,#PWR60,#PWR75,TP1",
+    "used_designators": "#PWR40,#PWR60,#PWR75",
     "variants": []
   },
   "sheets": [
